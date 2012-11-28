@@ -36,62 +36,108 @@
     </head>
     <body>
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <p class="chromeframe">Estás utilizando un navegador <strong>muy anticuado</strong>. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> o si te resulta muy incómodo <a href="http://www.google.com/chromeframe/?redirect=true">activa esta aplicación de Google</a> para que tu navegador sea más seguro.</p>
         <![endif]-->
 
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#">Project name</a>
-                    <div class="nav-collapse collapse">
-                        <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                            <input class="span2" type="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form>
-                    </div><!--/.nav-collapse -->
-                </div>
-            </div>
-        </div>
-        
-        
+        <!-- 1. HEADER -->
+
 				<header class="jumbotron subhead" id="overview">
+
+					<!-- 1.1. BARRA DE NAVEGACIÓN SUPERIOR. -->
+
+	        <div class="navbar navbar-inverse navbar-fixed-top">
+	            <div class="navbar-inner">
+	                <div class="container">
+	                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                    </a>
+	                    <a class="brand" href="#">Acceso alumno</a>
+	                    <div class="nav-collapse collapse">
+	                        <ul class="nav">
+	                            <li class="dropdown">
+	                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mis cursos <b class="caret"></b></a>
+	                                <ul class="dropdown-menu">
+	                                    <li><a href="#">Curso a</a></li>
+	                                    <li><a href="#">Curso b</a></li>
+	                                    <li><a href="#">Curso c</a></li>
+	                                    <li class="divider"></li>
+	                                    <li class="nav-header">Otros cursos</li>
+	                                    <li><a href="#">Curso d</a></li>
+	                                    <li><a href="#">Curso e</a></li>
+	                                </ul>
+	                            </li>
+	                            <li><a href="#contact">Valoración</a></li>
+	                            <li><a href="#contact">Contacto con el profesor</a></li>
+	                            <li><a href="#contact">Mi calendario</a></li>
+	                        </ul>
+
+	                        <a class="btn btn-inverse pull-right" href="#">Cerrar sesión</a>
+<!--
+	                        <form class="navbar-form pull-right">
+	                            <input class="span2" type="text" placeholder="Email">
+	                            <input class="span2" type="password" placeholder="Contraseña">
+	                            <button type="submit" class="btn">Sign in</button>
+	                        </form>
+-->
+	                    </div><!--/.nav-collapse -->
+	                </div>
+	            </div>
+	        </div> <!-- / FIN BARRA DE NAVEGACIÓN SUPERIOR -->
+
+	        <!-- 1.2. CONTENIDO CABECERA -->
 					<div class="container">
-						<h1>Getting started</h1>
-						<p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
+					<h1>Pivot point</h1>
+						<div class="row">
+							<div class="span5">
+								<p class="lead">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+							</div>
+							<div class="span5 offset2">
+								<div class="botones-header pull-right">
+									<br>
+									<div class="btn-group">
+										<a class="btn btn-primary btn-mini">
+											<i class="icon-white icon-globe" style="margin-top: 0;"></i>
+										</a>
+										<a class="btn btn-primary btn-mini" href="#"> 
+											Síguenos en Facebook 
+										</a>
+									</div>
+									<div class="btn-group">
+										<a class="btn btn-success btn-mini">
+											<i class="icon-white icon-globe" style="margin-top: 0;"></i>
+										</a>
+										<a class="btn btn-success btn-mini" href="#"> 
+											Pivot Point Internacional 
+										</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						
+
+						<!-- 1.2.1. BARRA DE MENÚ -->
 						<div class="navbar">
 						  <div class="navbar-inner">
-						    <a class="brand" href="#">Title</a>
+						    <!-- <a class="brand" href="#">Inicio</a> -->
 						    <ul class="nav">
-						      <li class="active"><a href="#">Home</a></li>
-						      <li><a href="#">Link</a></li>
-						      <li><a href="#">Link</a></li>
+						    	<!-- class="active" -->
+						      <li><a href="#">Quiénes somos</a></li>
+						      <li><a href="#">Cursos</a></li>
+						      <li><a href="">Calendario</a></li>
+						      <li><a href="#">Noticias</a></li>
+						      <li><a href="">Formadores</a></li>
+						      <li><a href="">Bolsa de trabajo</a></li>
 						    </ul>
+						    <form class="navbar-search pull-right">
+							  	<input type="text" class="search-query" placeholder="Empieza a buscar">
+							  </form>
 						  </div>
-						</div>
-					</div>
-				</header>
+						</div> <!-- / FIN DE BARRA DE MENÚ -->
+
+					</div> <!-- / FIN DE CONTENIDO CABECERA -->
+
+				</header> <!-- / FIN DE CABECERA -->
