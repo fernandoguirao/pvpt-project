@@ -4,6 +4,16 @@
 	 Estilos Pivot Point
 	 ========================================================================== */
 
+/* INDEX */
+
+.segunda .span4 {
+	text-align:center;
+}
+
+.segunda h2, .segunda p {
+	text-align:left;
+}
+
 /* FOOTER */
 
 .footer {
