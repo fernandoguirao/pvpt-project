@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -65,3 +65,21 @@
                 </div>
             </div>
         </div>
+        
+        
+				<header class="jumbotron subhead" id="overview">
+					<div class="container">
+						<h1>Getting started</h1>
+						<p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
+						<div class="navbar">
+						  <div class="navbar-inner">
+						    <a class="brand" href="#">Title</a>
+						    <ul class="nav">
+						      <li class="active"><a href="#">Home</a></li>
+						      <li><a href="#">Link</a></li>
+						      <li><a href="#">Link</a></li>
+						    </ul>
+						  </div>
+						</div>
+					</div>
+				</header>
