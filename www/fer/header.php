@@ -10,6 +10,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+				<!-- Iconos para smartphone -->
+				<!-- For third-generation iPad with high-resolution Retina display: -->
+				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/smarticons/apple-touch-icon-144x144-precomposed.png">
+				<!-- For iPhone with high-resolution Retina display: -->
+				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/smarticons/apple-touch-icon-114x114-precomposed.png">
+				<!-- For first- and second-generation iPad: -->
+				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/smarticons/apple-touch-icon-72x72-precomposed.png">
+				<!-- Otros: -->
+				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/smarticons/apple-touch-icon-57x57-precomposed.png">
+				<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+				<link rel="apple-touch-icon-precomposed" href="img/smarticons/apple-touch-icon-precomposed.png">
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
