@@ -6,7 +6,7 @@
 
 		<!-- 0. HEAD -->
 		
-		<head>
+		<head> 
 
 			<!-- 0.1. METAS -->
 
