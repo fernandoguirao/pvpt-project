@@ -38,6 +38,19 @@
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        
+        <!-- MAILCHIMP CSS -->
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style     block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	    </style>
+	    <!-- FIN DE MAILCHIMP CSS -->
+        
+        
+        
+        
         <!--[if lt IE 9]>
             <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
             <![endif]-->
