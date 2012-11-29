@@ -35,24 +35,28 @@
 
 						<div class="row">
 								<div class="span3">
-										<h2>Nuestros cursos</h2>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-										<p><a class="btn" href="#">Ver todos los cursos &raquo;</a></p>
+									<img src="http://placekitten.com/300/200" alt="">
+									<h2>Nuestros cursos</h2>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<p><a class="btn" href="#">Ver todos los cursos &raquo;</a></p>
 								</div>
 								<div class="span3">
-										<h2>El área de acceso alumnos</h2>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-										<p><a class="btn" href="#">Accede &raquo;</a></p>
+									<img src="http://placekitten.com/300/201" alt="">
+									<h2>El área de acceso alumnos</h2>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<p><a class="btn" href="#">Accede &raquo;</a></p>
 							 </div>
 								<div class="span3">
-										<h2>Valores de Pivot Point</h2>
-										<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-										<p><a class="btn" href="#">Más detalles &raquo;</a></p>
+									<img src="http://placekitten.com/300/199" alt="">
+									<h2>Valores de Pivot Point</h2>
+									<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+									<p><a class="btn" href="#">Más detalles &raquo;</a></p>
 								</div>
 								<div class="span3">
-										<h2>Esta es la última noticia</h2>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-										<p><a class="btn" href="#">Seguir leyendo &raquo;</a></p>
+									<img src="http://placekitten.com/300/200" alt="">
+									<h2>Esta es la última noticia</h2>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<p><a class="btn" href="#">Seguir leyendo &raquo;</a></p>
 							 </div>
 						</div> <!-- / FIN DE PRIMERA FILA -->
 
@@ -60,21 +64,24 @@
 
 						<!-- 2.2.2. SEGUNDA FILA -->
 
-						<div class="row">
+						<div class="row segunda">
 								<div class="span4">
-										<h2>Síguenos en Facebook</h2>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-										<p><a class="btn" href="#">View details &raquo;</a></p>
+									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
+									<h2>Síguenos en Facebook</h2>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<p><a class="btn" href="#">View details &raquo;</a></p>
 								</div>
 								<div class="span4">
-										<h2>Material didáctico</h2>
-										<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-										<p><a class="btn" href="#">View details &raquo;</a></p>
+									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
+									<h2>Material didáctico</h2>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+									<p><a class="btn" href="#">View details &raquo;</a></p>
 							 </div>
 								<div class="span4">
-										<h2>Calendario</h2>
-										<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-										<p><a class="btn" href="#">View details &raquo;</a></p>
+									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
+									<h2>Calendario</h2>
+									<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+									<p><a class="btn" href="#">View details &raquo;</a></p>
 								</div>
 						</div> <!-- / FIN DE SEGUNDA FILA -->
 

@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!-->	<html class="no-js" lang="es"> <!--<![endif]-->
 
 		<!-- 0. HEAD -->
+		
 		<head>
 
 			<!-- 0.1. METAS -->
@@ -29,7 +30,7 @@
 			<style>
 					body {
 							padding-top: 60px;
-							padding-bottom: 40px;
+							/* padding-bottom: 40px; */
 					}
 			</style>
 			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -141,6 +142,12 @@
 								<form class="navbar-search pull-right">
 								 	<input type="text" class="search-query" placeholder="Empieza a buscar">
 								 </form>
+								<!-- <form class="form-search pull-right" style="margin-top: 5px; margin-bottom: 6px;">
+									<div class="input-append">
+										<input type="text" class="span2 search-query">
+										<button type="submit" class="btn">Buscar</button>
+									</div>
+								</form> -->
 							</div>
 						</div> <!-- / FIN DE BARRA DE MENÚ -->
 

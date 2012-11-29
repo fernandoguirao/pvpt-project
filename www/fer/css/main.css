@@ -1,6 +1,39 @@
 
 
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+	 Estilos Pivot Point
+	 ========================================================================== */
 
+/* INDEX */
+
+.segunda .span4 {
+	text-align:center;
+}
+
+.segunda h2, .segunda p {
+	text-align:left;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color:#F5F5F5;
+	border-top-color:#E5E5E5;
+	border-top-style:solid;
+	border-top-width:1px;
+	margin-top:70px;
+	padding:70px 0;
+}
+
+.footer-links {
+	margin:10px 0;
+}
+
+.footer-links li {
+	display:inline;
+	padding:0 2px;
+}
+
+.muted {
+	color:#999999;
+}
