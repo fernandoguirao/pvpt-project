@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', '?f:W-pE`_glcHenx$$w48][b1_BkUbjKOm[7,S ?StVs7|+bC2=.5aqNQK4/Z!ce'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', '3of:^d?Cdar>bfF`d{w7[&+EYj!m:4FG(L5mnNm-(+1_A0-;5]E|t50SnnVHjQQ}'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'D3?G.s6$bM}RuK=U+7P>Oney:Z(BJ;@b6O|[#}UdP*$*0K|zv::xEeqx=6$?u-Mv'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'Z|H+FGd9#O|nbB]K<_?2K-O^?,Jm|,}(5@:h:bWF!_Q*fo=[Tn1=9YcKI,~4I[tb'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'pL/|ZOc:&w~k1cc`?pL5p_D#VKXTqqTfg&1`#<Lh-c? N*(5a&p0#uK$3X|H#y:['); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', 'JPEpiySk|weN6XvBxLU`VRv]MVlb2DQ|{{pg]8Y8p2 ;Y^dq~n-5Uh*cp_FY0vD,'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', ',O7-nZH)Fkq0Pgm=8kEpm^P|}4||YXi}Di:P3<g4-NMp~d2j|TBPR4#rdL66tt?A'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', '6LznE_s$h/,[sl$-A-hzkv>&hm5Q#5)SbNjn|/y>,F,#N;]#`|;RCjx-CMK+iN;>'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', 'L{eJ+hc/}U)lT&aam+i/_4rH0|gY1-_5z*hQlj$9`l)Z+:h8,ex[ww fd&y[LUxH'); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_KEY', 'NG|c7+(T&+4f?t-<yu$>Qhd</O*$`-E<66Jy9P}!vl{J2[g$j1+=!n~ |+e`8oRw'); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_KEY', 'AnyIC|+hy6`p0(sQ IvS_Q;w}fPd~J4P 3j1l<VyV*xU P6e~u[(aG`z1kx=?m}s'); // Cambia esto por tu frase aleatoria.
+define('NONCE_KEY', '~x-$)}@yT%FOB|aF$/{;IWdK]Mwkg%Rhq>n2}R&`86P P<4Hm2AX|h3J{+G52U-l'); // Cambia esto por tu frase aleatoria.
+define('AUTH_SALT', '#0f~E=uneT?<7OGy[mDk=wE@)p*0[s~ W >+G;H%ijyet4NE!Vm^Htjrh+B BOa,'); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_SALT', 'g# F|]v@+]-t+ c++SgV7eE-]FzI-45ofGe{;!dW:S1Q<DIWS3Q6#{;m2~<|h6p/'); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_SALT', 'UHqg:UZqCS- f[t|,2ZC.h; =eSZTLi53N;^ED@yXh=HpFU9c6S8oqSvP)g|o=z!'); // Cambia esto por tu frase aleatoria.
+define('NONCE_SALT', '-CJ8}MqC,1Se~Bl-R<Wj-+LUJpZ._/A%0g=9j3Gf9U8#:drxS d:[$+6g:?}u(<K'); // Cambia esto por tu frase aleatoria.
 
 /**#@-*/
 
