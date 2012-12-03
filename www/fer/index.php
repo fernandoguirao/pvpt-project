@@ -106,7 +106,7 @@
 						<ul class="thumbnails">
 								<li class="span3">
 									<a href="" class="thumbnail th1">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/img02.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
@@ -115,7 +115,7 @@
 								</li>
 								<li class="span3">
 									<a href="" class="thumbnail th2">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/foot-img02.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -124,7 +124,7 @@
 								</li>
 								<li class="span3">
 									<a href="" class="thumbnail th3">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/foot-img03.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. </p>
@@ -133,7 +133,7 @@
 								</li>
 								<li class="span3">
 									<a href="" class="thumbnail th4">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/img03.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -145,7 +145,7 @@
 
 								<li class="span3">
 									<a href="" class="thumbnail th5">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/img03.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -163,7 +163,7 @@
 								</li>
 <li class="span3">
 									<a href="" class="thumbnail th6">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/foot-img03.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -172,7 +172,7 @@
 								</li>
 <li class="span3">
 									<a href="" class="thumbnail th7">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/foot-img02.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -181,7 +181,7 @@
 								</li>
 <li class="span3">
 									<a href="" class="thumbnail th8">
-										<img src="http://placekitten.com/300/200" alt="">
+										<img src="img/sprites/img02.jpg" alt="">
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
 											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>

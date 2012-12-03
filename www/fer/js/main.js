@@ -37,4 +37,4 @@ pinterestthumbs('.th7');
 pinterestthumbs('.th8');
 
 	var tamanofooter = $('.footer').height();
-	$('.fondo-footer').height(tamanofooter);
+	$('.fondo-footer,.footer-textura').height(tamanofooter);

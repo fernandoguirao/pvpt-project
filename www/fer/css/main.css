@@ -355,21 +355,31 @@ a.thumbnail:hover {
 /* FOOTER */
 
 .fondo-footer {
-	width:100%;
-	background-color:rgba(0,0,0,0.80);
-	position:absolute;
-	z-index:0;
+    background-color: rgba(0, 0, 0, 0.89);
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.footer-textura {
+    background-color: transparent;
+    background-image: url("../img/txt_lino.png");
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
 }
 
 .footer .container {
 	position:relative;
-	z-index:1;
+	z-index:2;
 	padding-top:40px;
 }
 
 footer {
 	background-image: url("../img/contenidos/slide01.jpg");
 }
+
 
 .footer {
 	background-color:#F5F5F5;
