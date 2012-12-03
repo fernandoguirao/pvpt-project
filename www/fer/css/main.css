@@ -4,6 +4,202 @@
 	 Estilos Pivot Point
 	 ========================================================================== */
 
+/* FUENTES */
+
+@font-face {
+    font-family: 'avenir';
+    src: url('fonts/llocdejocs-webfont.eot');
+    src: url('fonts/llocdejocs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/llocdejocs-webfont.woff') format('woff'),
+         url('fonts/llocdejocs-webfont.ttf') format('truetype'),
+         url('fonts/llocdejocs-webfont.svg#llocdejocsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'avenirbi';
+    src: url('fonts/llocdejocsbi-webfont.eot');
+    src: url('fonts/llocdejocsbi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/llocdejocsbi-webfont.woff') format('woff'),
+         url('fonts/llocdejocsbi-webfont.ttf') format('truetype'),
+         url('fonts/llocdejocsbi-webfont.svg#llocdejocsBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkUltralight';
+    src: url('fonts/RawengulkUltralight-webfont.eot');
+    src: url('fonts/RawengulkUltralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkUltralight-webfont.woff') format('woff'),
+         url('fonts/RawengulkUltralight-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkUltralight-webfont.svg#RawengulkUltralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkLight';
+    src: url('fonts/RawengulkLight-webfont.eot');
+    src: url('fonts/RawengulkLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkLight-webfont.woff') format('woff'),
+         url('fonts/RawengulkLight-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkLight-webfont.svg#RawengulkLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkRegular';
+    src: url('fonts/RawengulkRegular-webfont.eot');
+    src: url('fonts/RawengulkRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkRegular-webfont.woff') format('woff'),
+         url('fonts/RawengulkRegular-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkRegular-webfont.svg#RawengulkRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkDemibold';
+    src: url('fonts/RawengulkDemibold-webfont.eot');
+    src: url('fonts/RawengulkDemibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkDemibold-webfont.woff') format('woff'),
+         url('fonts/RawengulkDemibold-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkDemibold-webfont.svg#RawengulkDemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkBold';
+    src: url('fonts/RawengulkBold-webfont.eot');
+    src: url('fonts/RawengulkBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkBold-webfont.woff') format('woff'),
+         url('fonts/RawengulkBold-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkBold-webfont.svg#RawengulkBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RawengulkPcsRegular';
+    src: url('fonts/RawengulkPcs-webfont.eot');
+    src: url('fonts/RawengulkPcs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RawengulkPcs-webfont.woff') format('woff'),
+         url('fonts/RawengulkPcs-webfont.ttf') format('truetype'),
+         url('fonts/RawengulkPcs-webfont.svg#RawengulkPcsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, p {
+	font-family:avenir;
+}
+
+h1,h2,h3 {
+	font-family: 'RawengulkBold';
+}
+
+button {
+	font-family:'avenir';
+}
+/* GENERALES */
+
+body {
+	background-image:url('../img/txt-bckg.png');
+}
+
+/* BARRA DE NAVEGACIÓN SUPERIOR */
+
+.superior .navbar-inverse .navbar-inner {
+	background-color:transparent;
+	background-image:url('../img/txt_lino.png');
+	opacity:0.9;
+}
+
+.superior .navbar .nav > li > a {
+  padding: 13px 15px 2px;
+}
+
+.superior .navbar .nav > li {
+  line-height:0px;
+}
+
+.superior .navbar-inner {
+	min-height:27px;
+}
+
+.superior .navbar-inner .btn {
+	line-height:0px;	
+}
+
+.superior .navbar .nav .dropdown-toggle .caret {
+    margin-top: 2px;
+}
+
+.superior .navbar .btn-inverse {
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  padding:0 0px;
+  box-shadow:none;
+  border-size:0;
+}
+
+.superior .navbar .brand {
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:12px;
+	margin-top:4px;
+	line-height:0;
+}
+
+.superior .navbar-inverse .nav > li > a {
+  color: #9E9E9E;
+}
+
+/* MENÚ PRINCIPAL */
+
+.menu-sup .navbar-inner {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: 0px;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px;
+    min-height: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-sup .navbar {
+	margin-top:-13px;
+}
+
+.menu-sup .navbar .nav.pull-right {
+	margin-top:4px;
+}
+
+.menu-sup .navbar .nav > li > a:last-child {
+	padding-right:0px;
+}
+
+.menu-sup .navbar-inner {
+	box-shadow: inherit;
+}
+
 /* INDEX */
 
 .segunda .span4 {
@@ -14,15 +210,174 @@
 	text-align:left;
 }
 
+/* CAROUSEL HOME */
+
+.carousel .container {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top:54px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    margin-bottom: 100px;
+    max-width: 558px;
+    padding: 0 20px 0 0;
+    line-height:55px;
+    position: static;
+}
+
+.carousel h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height:55px;
+    margin-bottom: 26px;
+    font-family:RawengulkLight;
+}
+
+.carousel h1 strong {
+	font-family:RawengulkBold;
+	font-weight:normal;
+}
+
+.carousel p {
+	font-size:18px;
+	line-height:22px;
+	max-width: 423px;
+	font-family:RawengulkRegular;
+}
+
+.carousel .lead {
+	margin-bottom:12px;
+}
+
+.carousel i {
+	margin-right:8px;
+}
+
+.carousel .btn {
+	color:white;
+	padding: 4px 24px 4px 0;
+	text-shadow:inherit;
+}
+
+.carousel .btn:hover {
+	color:white;
+}
+
+.nav-carousel .thumb {
+	border: 2px solid rgba(204,200,194,0.71);
+    border-radius: 100px 100px 100px 100px;
+    display: inline;
+    float: left;
+    height: 42px;
+    margin-right: 22px;
+    overflow: hidden;
+    width: 42px;
+    cursor:pointer;
+}
+
+.nav-carousel .thumb:hover {
+	border-color:white;
+}
+
+.nav-carousel img {
+	max-width:none;
+}
+
+.nav-carousel {
+	margin-top:17px;
+}
+
+.thumb .thumb-estado {
+	background-color:rgba(0,0,0,0.41);
+	width:42px;
+	height:42px;
+	position:absolute;
+	border-radius: 100px 100px 100px 100px;
+}
+
+.thumb .thumb-estado:hover {
+		background-color:transparent;
+}
+
+.activo .thumb-estado {
+	background-color:transparent!important;
+}
+
+.nav-carousel .activo {
+	border-color:white;
+	cursor:auto!important;
+}
+
+/* THUMBNAILS */
+
+.thumbnail {
+	padding: 0;	
+}
+.thumbnail .texto-th {
+	padding:0;
+}
+
+.thumbnail h2 {
+	color: #797878;
+    font-family: 'Rawengulklight';
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-bottom:1px dashed #DDDDDD;
+    padding: 0 14px;
+    margin-top:0px;
+    padding:0 19px;
+}
+
+.thumbnail p {
+    color: #CDC9C3;
+    font-size: 12px;
+    line-height: 17px;
+    padding:0 19px 5px;
+}
+
+a:hover {
+	text-decoration:none;
+	
+}
+
+a.thumbnail:hover {
+	border-color:rgba(127,127,127,0.29);
+	box-shadow:0px 1px 3px rgba(0,0,0,0.26)
+}
+
 /* FOOTER */
+
+.fondo-footer {
+	width:100%;
+	background-color:rgba(0,0,0,0.80);
+	position:absolute;
+	z-index:0;
+}
+
+.footer .container {
+	position:relative;
+	z-index:1;
+	padding-top:40px;
+}
+
+footer {
+	background-image: url("../img/contenidos/slide01.jpg");
+}
 
 .footer {
 	background-color:#F5F5F5;
 	border-top-color:#E5E5E5;
 	border-top-style:solid;
 	border-top-width:1px;
-	margin-top:70px;
-	padding:70px 0;
+	margin-top: 20px;
+    padding: 0;
 }
 
 .footer-links {
@@ -36,4 +391,79 @@
 
 .muted {
 	color:#999999;
+}
+
+.logo-inv {
+	margin-bottom: 22px;
+    margin-left: 41px;
+    margin-top: -13px;
+}
+
+.footer h3 {
+	font-family:'Rawengulklight';
+	text-transform:uppercase;
+	font-size:16px;
+	color:#555456;
+	padding: 0 40px;
+	line-height: 21px;
+    margin-top: 19px;
+}
+
+.footer p, .footer a {
+	color:#a5a09d;
+	padding: 0 40px;
+}
+
+.footer a {
+	border-top:1px dashed #a5a09d;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:block;
+}
+
+.footer a:hover {
+	border-color:white;
+	color:white;
+}
+
+.footer input,.footer textarea {
+	width:148px;
+}
+
+.footer .checkbox input {
+	width:18px;
+	margin:0;
+	padding:0px;
+	margin-right:6px;
+	margin-top:3px;
+}
+
+.footer .checkbox {
+	padding-left:0px;
+	color: #a5a09d;
+    font-size: 12px;
+}
+.footer form {
+	padding:14px 39px;
+}
+.footer .span3 {
+	margin-left:0px;
+	width:240px;
+}
+
+.footer address {
+	padding: 0 39px;
+	color: #a5a09d;
+}
+
+.footer input, .footer textarea {
+	background-color:rgba(0,0,0,0.5);
+	border:none;
+	border-bottom:1px solid rgba(127,127,127,0.5);
+	font-family:'avenir';
+	padding:12px 10px;
+}
+
+.footer button {
+	width:100%;
 }
