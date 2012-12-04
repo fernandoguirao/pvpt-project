@@ -15,7 +15,8 @@ $('.carousel').carousel({
 
  function pinterestthumbs()
   {
-  
+  	if ($('body').hasClass('th9')) {
+  	
  	var posicionfooter = $('.footer').offset();
 /*
  	var posicionth5 = $('.th5').offset();
@@ -47,6 +48,7 @@ $('.carousel').carousel({
  	$('.th10 img').height(nueva10);
  	$('.th9 img').height(nueva9);
  	
+ 	}
  }
 
 /*
