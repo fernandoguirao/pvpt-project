@@ -73,4 +73,20 @@ pinterestthumbs();
 	var tamanofooter = $('.footer').height();
 	$('.fondo-footer,.footer-textura,.contiene-bckg-foot').height(tamanofooter);
 /* 	$('.footbckg').width(tamanofooter*8); */
-	
+
+/* MENÚ DE SCROLL */
+
+var $document = $(document),
+    $element = $('.menu-sup'),
+    className = 'menuscroll';
+
+$document.scroll(function() {
+  if ($document.scrollTop() >= 150) {
+    // user scrolled 50 pixels or more;
+    // do stuff
+    $element.addClass(className);
+  } else {
+    $element.removeClass(className);
+  }
+});
+

@@ -121,10 +121,11 @@ body {
 
 /* BARRA DE NAVEGACIÓN SUPERIOR */
 
+
+
 .superior .navbar-inverse .navbar-inner {
 	background-color:transparent;
 	background-image:url('../img/txt_lino.png');
-	opacity:0.9;
 }
 
 .superior .navbar .nav > li > a {
@@ -199,6 +200,21 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
+.menuscroll {
+    background-color: white;
+    height: 46px;
+    margin-top: 70px;
+/*     opacity: 0.9; */
+    padding-top: 17px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    -webkit-transform: translate(0px,-100px);
+    -moz-transform: translate(0px,-100px);
+    -o-transform: translate(0px,-100px);
+    -ms-transform: translate(0px,-100px);
+    transition: margin-top 1s ease-in-out;
+} 
 
 .menu-sup .navbar {
 	margin-top:-13px;
@@ -218,6 +234,9 @@ body {
 	filter:inherit;
 }
 
+.container {
+	width:1170px !important;
+}
 /* INDEX */
 
 .segunda .span4 {
