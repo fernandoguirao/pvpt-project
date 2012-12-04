@@ -131,7 +131,7 @@
 							<div class="menu-sup">
 								<div class="navbar">
 									<div class="navbar-inner">
-										<a class="brand" href="#"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+										<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
 										<ul class="nav pull-right">
 											<!-- class="active" -->
 											<li><a href="#">Quiénes somos</a></li>
