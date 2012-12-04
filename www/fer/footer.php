@@ -7,11 +7,14 @@
 					</div>
 					<div class="footer-textura">
 					</div>
+					<div class="contiene-bckg-foot hidden-phone hidden-tablet">
+					<img src="img/contenidos/slide01.jpg" class="footbckg" alt="" />
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="span3">
 								<img src="img/sprites/logo-invertido.png" alt="Pivot point" class="logo-inv" />
-								<img src="img/sprites/foot-img01.jpg" alt="" width="100%" />
+								<img src="img/sprites/foot-img01.jpg" class="hidden-phone" alt="" width="100%" />
 								<h3>Pivot point</h3>
 								<p>
 									Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
@@ -23,7 +26,7 @@
 								<div style="height:1px;width:1px;"></div>
 							</div>
 							<div class="span3">
-								<img src="img/sprites/foot-img02.jpg" style="margin-top: 77px;" width="100%" alt="" />
+								<img src="img/sprites/foot-img02.jpg" class="hidden-phone" style="margin-top: 77px;" width="100%" alt="" />
 								<h3>Suscríbete a nuestra lista de correo</h3>
 								<p>
 									Y te mantendremos actualizad@ con las últimas novedades de nuestros cursos y el bla bla bla bla.
@@ -36,7 +39,7 @@
 
 							</div>
 							<div class="span3">
-								<img src="img/sprites/foot-img03.jpg" style="margin-top: 77px;" width="100%" alt="" />
+								<img src="img/sprites/foot-img03.jpg" class="hidden-phone" style="margin-top: 77px;" width="100%" alt="" />
 								<div class="foot-contacto">
 									<h3>Contacta con nosotros</h3>
 									<form>
@@ -55,7 +58,7 @@
 							</div>
 							<div class="span3">
 								<div class="mapa">
-									<img alt="" src="img/sprites/foot-img04.jpg" width="100%" style="margin-top: 97px;">
+									<img alt="" src="img/sprites/foot-img04.jpg" class="hidden-phone" width="100%" style="margin-top: 97px;">
 									<br>
 									<br>
 								</div>

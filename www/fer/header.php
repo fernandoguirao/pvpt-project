@@ -35,6 +35,7 @@
 			</style>
 			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/main-responsive.css">
 
 				<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		</head>
@@ -82,7 +83,7 @@
 																 <li><a href="#contact">Mi calendario</a></li>
 														 </ul>
 	
-														 <a class="btn btn-inverse pull-right" href="#">
+														 <a class="btn btn-inverse pull-right nav-cerrar" href="#">
 														 	<i class="icon-off icon-white"></i> Cerrar sesión
 														 </a>
 	<!--
