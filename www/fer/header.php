@@ -101,13 +101,14 @@
 
 					 <!-- 1.2. CONTENIDO CABECERA -->
 
-					<div class="container">
+					
 
 						<!-- 1.2.1. BARRA DE MENÚ -->
 						
 						<div class="menu-sup">
 							<div class="navbar">
 								<div class="navbar-inner">
+								<div class="container hide-phone hide-tablet">
 									<a class="brand" href="#"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
