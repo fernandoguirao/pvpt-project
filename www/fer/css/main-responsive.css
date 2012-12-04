@@ -62,6 +62,13 @@ display:inline;
 	margin-top:-7px!important;
 }
 
+.footer form {
+    padding: 14px 4px;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
+}
 }
  
 /* IPHONE EN HORIZONTAL */
@@ -73,6 +80,10 @@ font-weight:normal;
 float: left;
 min-height: 15px!important;
 padding: 13px 15px 2px!important;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
 }
 
 .nav-collapse .dropdown-menu a {
@@ -130,6 +141,10 @@ font-weight:normal;
 float: left;
 min-height: 15px!important;
 padding: 13px 15px 2px!important;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
 }
 
 .nav-collapse .dropdown-menu a {

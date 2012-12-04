@@ -170,6 +170,14 @@ body {
   color: #9E9E9E;
 }
 
+.superior .navbar-inverse .nav > li > a:hover {
+	color:white;
+} 
+
+.superior .navbar .btn-inverse:hover {
+	text-decoration:underline;
+}
+
 /* MENÚ PRINCIPAL */
 
 .menu-sup .navbar-inner {
@@ -192,12 +200,14 @@ body {
 	margin-top:4px;
 }
 
+
 .menu-sup .navbar .nav > li > a:last-child {
 	padding-right:0px;
 }
 
 .menu-sup .navbar-inner {
 	box-shadow: inherit;
+	filter:inherit;
 }
 
 /* INDEX */
