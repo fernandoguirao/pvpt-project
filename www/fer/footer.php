@@ -8,7 +8,7 @@
 					<div class="footer-textura">
 					</div>
 					<div class="contiene-bckg-foot hidden-phone hidden-tablet">
-					<img src="img/contenidos/slide01.jpg" class="footbckg" alt="" />
+						<img src="img/contenidos/slide01.jpg" class="footbckg" alt="" />
 					</div>
 					<div class="container">
 						<div class="row">
@@ -36,7 +36,6 @@
 										<input type="text" id="inputEmail" placeholder="Tu email aquí">
 									</fieldset>
 								</form>
-
 							</div>
 							<div class="span3">
 								<img src="img/sprites/foot-img03.jpg" class="hidden-phone" style="margin-top: 77px;" width="100%" alt="" />

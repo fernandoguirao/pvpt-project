@@ -83,7 +83,7 @@
 																 <li><a href="#contact">Mi calendario</a></li>
 														 </ul>
 	
-														 <a class="btn btn-inverse pull-right nav-cerrar" href="#">
+														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="#">
 														 	<i class="icon-off icon-white"></i> Cerrar sesión
 														 </a>
 	<!--

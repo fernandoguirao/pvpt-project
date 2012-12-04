@@ -111,7 +111,7 @@
 								<li class="span3">
 									<a href="" class="thumbnail th1">
 										<div class="mascara">
-										<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img02.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -120,7 +120,7 @@
 									</a>
 									<a href="" class="thumbnail th5">
 										<div class="mascara">
-										<img src="img/sprites/img03.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -132,7 +132,7 @@
 								<li class="span3">
 									<a href="" class="thumbnail th2">
 										<div class="mascara">
-										<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
+											<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -141,7 +141,7 @@
 									</a>
 									<a href="" class="thumbnail th6">
 										<div class="mascara">
-										<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
+											<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -153,7 +153,7 @@
 								<li class="span3">
 									<a href="" class="thumbnail th3">
 										<div class="mascara">
-										<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
+											<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -162,7 +162,7 @@
 									</a>
 									<a href="" class="thumbnail th7">
 										<div class="mascara">
-										<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
+											<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -174,7 +174,7 @@
 								<li class="span3">
 									<a href="" class="thumbnail th4">
 										<div class="mascara">
-										<img src="img/sprites/img03.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
@@ -183,7 +183,7 @@
 									</a>
 									<a href="" class="thumbnail th8">
 										<div class="mascara">
-										<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img02.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Nuestros cursos</h2>
