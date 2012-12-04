@@ -78,7 +78,7 @@ pinterestthumbs();
 
 var $document = $(document),
     $element = $('.menu-sup'),
-    className = 'menuscroll';
+    className = 'menuscroll hidden-phone hidden-tablet';
 
 $document.scroll(function() {
   if ($document.scrollTop() >= 150) {
