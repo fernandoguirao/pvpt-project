@@ -1,5 +1,3 @@
-				</div> <!-- / FIN DE CUERPO PRINCIPAL -->
-
 				<!-- 3. FOOTER -->
 
 				<footer class="footer">
