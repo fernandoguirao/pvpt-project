@@ -7,98 +7,98 @@
 /* FUENTES */
 
 @font-face {
-    font-family: 'avenir';
-    src: url('fonts/llocdejocs-webfont.eot');
-    src: url('fonts/llocdejocs-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/llocdejocs-webfont.woff') format('woff'),
-         url('fonts/llocdejocs-webfont.ttf') format('truetype'),
-         url('fonts/llocdejocs-webfont.svg#llocdejocsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'avenir';
+	src: url('fonts/llocdejocs-webfont.eot');
+	src: url('fonts/llocdejocs-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/llocdejocs-webfont.woff') format('woff'),
+		 url('fonts/llocdejocs-webfont.ttf') format('truetype'),
+		 url('fonts/llocdejocs-webfont.svg#llocdejocsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'avenirbi';
-    src: url('fonts/llocdejocsbi-webfont.eot');
-    src: url('fonts/llocdejocsbi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/llocdejocsbi-webfont.woff') format('woff'),
-         url('fonts/llocdejocsbi-webfont.ttf') format('truetype'),
-         url('fonts/llocdejocsbi-webfont.svg#llocdejocsBoldItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'avenirbi';
+	src: url('fonts/llocdejocsbi-webfont.eot');
+	src: url('fonts/llocdejocsbi-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/llocdejocsbi-webfont.woff') format('woff'),
+		 url('fonts/llocdejocsbi-webfont.ttf') format('truetype'),
+		 url('fonts/llocdejocsbi-webfont.svg#llocdejocsBoldItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkUltralight';
-    src: url('fonts/RawengulkUltralight-webfont.eot');
-    src: url('fonts/RawengulkUltralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkUltralight-webfont.woff') format('woff'),
-         url('fonts/RawengulkUltralight-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkUltralight-webfont.svg#RawengulkUltralight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkUltralight';
+	src: url('fonts/RawengulkUltralight-webfont.eot');
+	src: url('fonts/RawengulkUltralight-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkUltralight-webfont.woff') format('woff'),
+		 url('fonts/RawengulkUltralight-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkUltralight-webfont.svg#RawengulkUltralight') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkLight';
-    src: url('fonts/RawengulkLight-webfont.eot');
-    src: url('fonts/RawengulkLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkLight-webfont.woff') format('woff'),
-         url('fonts/RawengulkLight-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkLight-webfont.svg#RawengulkLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkLight';
+	src: url('fonts/RawengulkLight-webfont.eot');
+	src: url('fonts/RawengulkLight-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkLight-webfont.woff') format('woff'),
+		 url('fonts/RawengulkLight-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkLight-webfont.svg#RawengulkLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkRegular';
-    src: url('fonts/RawengulkRegular-webfont.eot');
-    src: url('fonts/RawengulkRegular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkRegular-webfont.woff') format('woff'),
-         url('fonts/RawengulkRegular-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkRegular-webfont.svg#RawengulkRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkRegular';
+	src: url('fonts/RawengulkRegular-webfont.eot');
+	src: url('fonts/RawengulkRegular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkRegular-webfont.woff') format('woff'),
+		 url('fonts/RawengulkRegular-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkRegular-webfont.svg#RawengulkRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkDemibold';
-    src: url('fonts/RawengulkDemibold-webfont.eot');
-    src: url('fonts/RawengulkDemibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkDemibold-webfont.woff') format('woff'),
-         url('fonts/RawengulkDemibold-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkDemibold-webfont.svg#RawengulkDemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkDemibold';
+	src: url('fonts/RawengulkDemibold-webfont.eot');
+	src: url('fonts/RawengulkDemibold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkDemibold-webfont.woff') format('woff'),
+		 url('fonts/RawengulkDemibold-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkDemibold-webfont.svg#RawengulkDemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkBold';
-    src: url('fonts/RawengulkBold-webfont.eot');
-    src: url('fonts/RawengulkBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkBold-webfont.woff') format('woff'),
-         url('fonts/RawengulkBold-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkBold-webfont.svg#RawengulkBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkBold';
+	src: url('fonts/RawengulkBold-webfont.eot');
+	src: url('fonts/RawengulkBold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkBold-webfont.woff') format('woff'),
+		 url('fonts/RawengulkBold-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkBold-webfont.svg#RawengulkBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'RawengulkPcsRegular';
-    src: url('fonts/RawengulkPcs-webfont.eot');
-    src: url('fonts/RawengulkPcs-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/RawengulkPcs-webfont.woff') format('woff'),
-         url('fonts/RawengulkPcs-webfont.ttf') format('truetype'),
-         url('fonts/RawengulkPcs-webfont.svg#RawengulkPcsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'RawengulkPcsRegular';
+	src: url('fonts/RawengulkPcs-webfont.eot');
+	src: url('fonts/RawengulkPcs-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/RawengulkPcs-webfont.woff') format('woff'),
+		 url('fonts/RawengulkPcs-webfont.ttf') format('truetype'),
+		 url('fonts/RawengulkPcs-webfont.svg#RawengulkPcsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .superior .navbar .nav .dropdown-toggle .caret {
-    margin-top: 2px;
+	margin-top: 2px;
 }
 
 .superior .navbar .btn-inverse {
@@ -168,7 +168,8 @@ body {
 }
 
 .superior .navbar-inverse .nav > li > a {
-  color: #9E9E9E;
+	color: #9E9E9E;
+	transition: color 0.3s ease-in-out;
 }
 
 .superior .navbar-inverse .nav > li > a:hover {
@@ -181,39 +182,45 @@ body {
 
 .navbar-inverse {
 	background-color: #0E0E0E;
-    background-image: linear-gradient(to bottom, #151515, #040404);
-    background-repeat: repeat-x;
-    border:1px solid red;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	background-image: linear-gradient(to bottom, #151515, #040404);
+	background-repeat: repeat-x;
+	border:1px solid red;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 
 /* MENÚ PRINCIPAL */
 
 .menu-sup .navbar-inner {
-    background-color: transparent;
-    background-image: none;
-    background-repeat: no-repeat;
-    border: 0px;
-    border-radius: 4px 4px 4px 4px;
-    box-shadow: 0px;
-    min-height: 40px;
-    padding-left: 0px;
-    padding-right: 0px;
+	background-color: transparent;
+	background-image: none;
+	background-repeat: no-repeat;
+	border: 0px;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0px;
+	min-height: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar .nav > li > a {
+	transition: color 0.2s ease-in-out;
+}
+.menuscrollsi {
+	opacity:0;
 }
 .menuscroll {
-    background-color: white;
-    height: 46px;
-    margin-top: 70px;
-/*     opacity: 0.9; */
-    padding-top: 17px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    -webkit-transform: translate(0px,-100px);
-    -moz-transform: translate(0px,-100px);
-    -o-transform: translate(0px,-100px);
-    -ms-transform: translate(0px,-100px);
-    transition: margin-top 1s ease-in-out;
+	background-color: white;
+	margin-top: 111px;
+	opacity: 0.9;
+	padding-top: 17px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	-webkit-transform: translate(0px,-200px);
+	-moz-transform: translate(0px,-200px);
+	-o-transform: translate(0px,-100px);
+	-ms-transform: translate(0px,-100px);
+	transition: margin-top 1s ease-in-out;
 } 
 
 .menu-sup .navbar {
@@ -234,7 +241,7 @@ body {
 	filter:inherit;
 }
 
-.container {
+.ocultarphone .container {
 	width:1170px !important;
 }
 /* INDEX */
@@ -250,30 +257,30 @@ body {
 /* CAROUSEL HOME */
 
 .carousel .container {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top:54px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top:54px;
 }
 
 .carousel-caption {
-    background-color: transparent;
-    margin-bottom: 100px;
-    max-width: 558px;
-    padding: 0 20px 0 0;
-    line-height:55px;
-    position: static;
+	background-color: transparent;
+	margin-bottom: 100px;
+	max-width: 558px;
+	padding: 0 20px 0 0;
+	line-height:55px;
+	position: static;
 }
 
 .carousel h1 {
-    color: white;
-    font-size: 50px;
-    font-weight: normal;
-    text-transform: uppercase;
-    line-height:55px;
-    margin-bottom: 26px;
-    font-family:RawengulkLight;
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height:55px;
+	margin-bottom: 26px;
+	font-family:RawengulkLight;
 }
 
 .carousel h1 strong {
@@ -308,14 +315,15 @@ body {
 
 .nav-carousel .thumb {
 	border: 2px solid rgba(204,200,194,0.71);
-    border-radius: 100px 100px 100px 100px;
-    display: inline;
-    float: left;
-    height: 42px;
-    margin-right: 22px;
-    overflow: hidden;
-    width: 42px;
-    cursor:pointer;
+	border-radius: 100px 100px 100px 100px;
+	display: inline;
+	float: left;
+	height: 42px;
+	margin-right: 22px;
+	overflow: hidden;
+	width: 42px;
+	cursor:pointer;
+	transition: border-color 0.4s ease-in-out;
 }
 
 .nav-carousel .thumb:hover {
@@ -336,6 +344,7 @@ body {
 	height:42px;
 	position:absolute;
 	border-radius: 100px 100px 100px 100px;
+	transition: background-color 0.4s ease-in-out;
 }
 
 .thumb .thumb-estado:hover {
@@ -353,6 +362,9 @@ body {
 
 /* THUMBNAILS */
 
+.mascara {
+background-color:black;
+}
 .thumbnail {
 	padding: 0;	
 	margin-bottom:18px;
@@ -362,23 +374,29 @@ body {
 }
 
 .thumbnail h2 {
-    border-bottom: 1px dashed #DDDDDD;
-    color: #797878;
-    font-family: 'Rawengulklight';
-    font-size: 16px;
-    font-weight: lighter;
-    line-height: 21px;
-    margin-top: 10px;
-    padding: 0 19px 10px;
-    text-transform: uppercase;
+	border-bottom: 1px dashed #DDDDDD;
+	color: #797878;
+	font-family: 'Rawengulklight';
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 21px;
+	margin-top: 10px;
+	padding: 0 19px 10px;
+	text-transform: uppercase;
 }
 
-
+.mascara img {
+	opacity:1;
+	transition: opacity 0.5s ease-in-out;
+}
+.mascara img:hover  {
+	opacity:0.9;
+}
 .thumbnail p {
-    color: #CDC9C3;
-    font-size: 12px;
-    line-height: 17px;
-    padding:0 19px 5px;
+	color: #CDC9C3;
+	font-size: 12px;
+	line-height: 17px;
+	padding:0 19px 5px;
 }
 
 a:hover {
@@ -395,9 +413,9 @@ a.thumbnail:hover {
 	background-image:url('../img/sprites/img02.jpg');
 	overflow:hidden;
 	border: 0 none;
-    border-radius: 0 0 0 0;
-    background-repeat:no-repeat;
-    box-shadow:none;
+	border-radius: 0 0 0 0;
+	background-repeat:no-repeat;
+	box-shadow:none;
 }
 
 .th11 {
@@ -411,19 +429,19 @@ a.thumbnail:hover {
 /* FOOTER */
 
 .fondo-footer {
-    background-color: rgba(0, 0, 0, 0.89);
-    position: absolute;
-    width: 100%;
-    z-index: 2;
+	background-color: rgba(0, 0, 0, 0.89);
+	position: absolute;
+	width: 100%;
+	z-index: 2;
 }
 
 .footer-textura {
-    background-color: transparent;
-    background-image: url("../img/txt_lino.png");
-    opacity: 0.4;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
+	background-color: transparent;
+	background-image: url("../img/txt_lino.png");
+	opacity: 0.4;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
 }
 
 .footer .container {
@@ -444,7 +462,7 @@ a.thumbnail:hover {
 	border-top-style:solid;
 	border-top-width:1px;
 	margin-top: -23px;
-    padding: 0;
+	padding: 0;
 }
 
 .contiene-bckg-foot {
@@ -469,8 +487,8 @@ a.thumbnail:hover {
 
 .logo-inv {
 	margin-bottom: 22px;
-    margin-left: 41px;
-    margin-top: -13px;
+	margin-left: 41px;
+	margin-top: -13px;
 }
 
 .footer h3 {
@@ -480,7 +498,7 @@ a.thumbnail:hover {
 	color:#555456;
 	padding: 0 40px;
 	line-height: 21px;
-    margin-top: 19px;
+	margin-top: 19px;
 }
 
 .footer p, .footer a {
@@ -493,6 +511,8 @@ a.thumbnail:hover {
 	padding-top:10px;
 	padding-bottom:10px;
 	display:block;
+	transition:border-color 0.4s ease-in-out;
+	transition:color 0.4s ease-in-out;
 }
 
 .footer a:hover {
@@ -515,7 +535,7 @@ a.thumbnail:hover {
 .footer .checkbox {
 	padding-left:0px;
 	color: #a5a09d;
-    font-size: 12px;
+	font-size: 12px;
 }
 .footer form {
 	padding:14px 39px;

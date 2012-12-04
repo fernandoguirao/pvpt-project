@@ -4,12 +4,12 @@ $('.carousel').carousel({
   interval: 500000
 })
 
-    $(".nav-carousel > div").click(function(){   
-    var item = $(this).attr('class').replace("thumb car-", "");
-    var itemnum = parseInt(item) - 1;
-    $('.carousel').carousel(itemnum);   
-    return false;   
-    });
+	$(".nav-carousel > div").click(function(){	 
+	var item = $(this).attr('class').replace("thumb car-", "");
+	var itemnum = parseInt(item) - 1;
+	$('.carousel').carousel(itemnum);	
+	return false;	
+	});
 
 /* THUMBNAILS */
 
@@ -68,25 +68,32 @@ $('.carousel').carousel({
 
 pinterestthumbs();
 
+
 /* FOOTER */
 
-	var tamanofooter = $('.footer').height();
-	$('.fondo-footer,.footer-textura,.contiene-bckg-foot').height(tamanofooter);
+var tamanofooter = $('.footer').height();
+$('.fondo-footer,.footer-textura,.contiene-bckg-foot').height(tamanofooter);
 /* 	$('.footbckg').width(tamanofooter*8); */
+
 
 /* MENÚ DE SCROLL */
 
+$('.menuscrollsi').hide();
 var $document = $(document),
-    $element = $('.menu-sup'),
-    className = 'menuscroll hidden-phone hidden-tablet';
+$element = $('.menuscrollsi'),
+className = 'menuscroll hidden-phone hidden-tablet';
 
 $document.scroll(function() {
-  if ($document.scrollTop() >= 150) {
-    // user scrolled 50 pixels or more;
-    // do stuff
-    $element.addClass(className);
-  } else {
-    $element.removeClass(className);
-  }
+	if ($document.scrollTop() >= 150) {
+		// user scrolled 50 pixels or more;
+		// do stuff
+		$('.menuscrollsi').show(function(){
+			 $element.addClass(className);
+		});
+	} else {
+		$('.menuscrollsi').fadeOut(function(){
+			$element.removeClass(className);
+		});
+	}
 });
 

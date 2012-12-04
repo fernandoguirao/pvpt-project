@@ -99,9 +99,9 @@
 						 </div>
 					 </div><!-- / FIN BARRA DE NAVEGACIÓN SUPERIOR -->
 
-					 <!-- 1.2. CONTENIDO CABECERA DESKTOP-->
+					<!-- 1.2. CONTENIDO CABECERA-->
 
-					<div class="container hidden-desktop">
+					<div class="container">
 
 						<!-- 1.2.1. BARRA DE MENÚ -->
 						
@@ -124,28 +124,25 @@
 
 					</div> <!-- / FIN DE CONTENIDO CABECERA -->
 					
-					 <!-- 1.2. CONTENIDO CABECERA PHONE TABLET-->
-
-					<!-- 1.2.1. BARRA DE MENÚ -->
-					
-					<div class="menu-sup hidden-phone hidden-tablet">
-						<div class="navbar">
-							<div class="navbar-inner">
-								<div class="container">
-									<a class="brand" href="#"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
-									<ul class="nav pull-right">
-										<!-- class="active" -->
-										<li><a href="#">Quiénes somos</a></li>
-										<li><a href="#">Cursos</a></li>
-										<li><a href="">Calendario</a></li>
-										<li><a href="#">Noticias</a></li>
-										<li><a href="">Formadores</a></li>
-										<li><a href="">Bolsa de trabajo</a></li>
-									</ul>
+					<div class="menuscrollsi">
+						<div class="container">
+							<div class="menu-sup">
+								<div class="navbar">
+									<div class="navbar-inner">
+										<a class="brand" href="#"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+										<ul class="nav pull-right">
+											<!-- class="active" -->
+											<li><a href="#">Quiénes somos</a></li>
+											<li><a href="#">Cursos</a></li>
+											<li><a href="">Calendario</a></li>
+											<li><a href="#">Noticias</a></li>
+											<li><a href="">Formadores</a></li>
+											<li><a href="">Bolsa de trabajo</a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div> <!-- / FIN DE BARRA DE MENÚ -->
-
-					</div> <!-- / FIN DE CONTENIDO CABECERA -->
+						</div>
+					</div>
 
 				</header> <!-- / FIN DE CABECERA -->
