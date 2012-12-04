@@ -119,6 +119,47 @@ body {
 	background-image:url('../img/txt-bckg.png');
 }
 
+#cuerpo {
+	color: #C6C6C6;
+	font-family: avenir;
+	font-size: 17px;
+	line-height: 23px;
+	font-weight:normal;
+}
+
+#contenido {
+	margin-top:30px;
+	margin-bottom:40px;	
+}
+
+#contenido h3 {
+    font-family: 'RawengulkBold';
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.captionimg {
+    color: white;
+    margin-top: 63px;
+    position: absolute;
+}
+
+.captionimg {
+    color: white;
+    margin-top: 63px;
+    position: absolute;
+    width: 495px;
+}
+
+.captionimg a {
+	border: 1px solid white;
+    color: white;
+    top: 32px;
+    padding: 18px;
+    text-decoration: none;
+    position:relative;
+}
 /* BARRA DE NAVEGACIÓN SUPERIOR */
 
 
