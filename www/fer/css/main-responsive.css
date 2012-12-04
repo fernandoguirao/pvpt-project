@@ -38,6 +38,21 @@ display:none;
     margin-top: 25px;
 }
 
+.captionimg a {
+    border: 1px solid white;
+    color: white;
+    padding: 13px;
+    position: relative;
+    text-decoration: none;
+    top: 27px;
+}
+
+.captionimg h2 {
+	    font-size: 25.5px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
 .footer .span3 {
 	margin-left:0px;
 	width:240px;

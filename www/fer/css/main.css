@@ -160,6 +160,10 @@ body {
     text-decoration: none;
     position:relative;
 }
+
+.captionimg h2 {
+	font-family:'Lucida grande';
+}
 /* BARRA DE NAVEGACIÓN SUPERIOR */
 
 
