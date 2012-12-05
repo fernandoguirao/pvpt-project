@@ -6,7 +6,7 @@
 				
 					<!-- 2.1 CAROUSEL -->
 	
-					<div id="myCarousel" class="carousel slide">
+					<div id="myCarousel" class="carousel slide"> 
 	
 						 <!-- 2.1.1 Slides -->
 	
