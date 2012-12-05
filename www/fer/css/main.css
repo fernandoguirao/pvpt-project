@@ -584,9 +584,11 @@ a.thumbnail:hover {
 	color: #a5a09d;
 	font-size: 12px;
 }
+
 .footer form {
 	padding:14px 39px;
 }
+
 .footer .span3:nth-child(2),.footer .span3:nth-child(3),.footer .span3:nth-child(4) {
 	margin-left:0px;
 /* 	width:240px; */
