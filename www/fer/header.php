@@ -134,7 +134,7 @@
 										<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
 										<ul class="nav pull-right">
 											<!-- class="active" -->
-											<li><a href="#">Quiénes somos</a></li>
+											<li><a href="quienes-somos.php">Quiénes somos</a></li>
 											<li><a href="#">Cursos</a></li>
 											<li><a href="">Calendario</a></li>
 											<li><a href="#">Noticias</a></li>
