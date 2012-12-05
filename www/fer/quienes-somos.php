@@ -10,7 +10,7 @@
 							<a href="">Solicita ahora bla bla</a>
 						</div>
 					</div>
-					</div>
+					</div> 
 					<img src="img/contenidos/diapositiva.png" alt="" width="100%" />
 					
 					<div id="contenido" class="container">
