@@ -1,0 +1,95 @@
+/*-----------------------------------------------
+	
+	WPT Admin CSS
+	
+-----------------------------------------------*/
+/*-----------------------------------------------
+	Options Page
+-----------------------------------------------*/
+#wpt-options-container {
+	width: 80%;
+}
+
+#wpt-options-container .wpt-options {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#wpt-options-container .wpt-description {
+	font-style: italic;
+	color: #666;
+}
+
+#wpt-options-container .wpt-option-row {
+	padding-left: 30px;
+}
+
+#wpt-options-container .wpt-option-child-row {
+	padding-bottom: 10px;
+}
+
+#wpt-options-container .wpt-option-child-row label {
+	width: 165px;
+	display: block;
+	float: left;
+}
+
+#wpt-options-container .wpt-option-child-row .wpt-input-container {
+	float: left;
+}
+
+#wpt-options-container .wpt-option-child-row p {
+	margin: 0 !important;
+}
+
+#wpt-options-container .wpt-input {
+	min-width: 200px;
+}
+
+#wpt-options-container small {
+	display: block;
+	clear: left;
+}
+
+#wpt-options-container .wpt-options-footer {
+	padding: 10px;
+}
+
+/*-----------------------------------------------
+	MISC
+-----------------------------------------------*/
+#wpt-options-container .wpt-option-child-row p {
+	margin: 0 !important;
+	font-style: italic;
+}
+
+#wpt-options-container .wpt-option-child-row p.error {
+	color: #c00000;
+}
+
+#wpt-options-container .wpt-last-row {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+#wpt-options-container .button-primary.alignright {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+
+/*-----------------------------------------------
+	Course Color picker
+-----------------------------------------------*/
+#course-color-options {
+	
+}
+
+#course-color-options .color-container {
+	position: relative;
+}
+
+#course-color-options .color-container .color-picker {
+	position: absolute;
+}
