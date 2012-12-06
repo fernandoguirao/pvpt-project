@@ -125,8 +125,19 @@ body {
 	font-size: 17px;
 	line-height: 23px;
 	font-weight:normal;
+	min-height:100px;
+	margin-bottom: 37px;
 }
 
+table p {
+	font-weight:normal!important;
+	font-size: 14px;
+}
+
+thead p {
+	text-transform:uppercase;
+	color:grey;
+}
 #contenido {
 	margin-top:30px;
 	margin-bottom:40px;	
@@ -159,7 +170,11 @@ body {
     padding: 18px;
     text-decoration: none;
     position:relative;
-    transition:box-shadow 0.4s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: box-shadow 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: box-shadow 0.4s ease-out;  /* Opera 10.5–12.00 */
+    transition: box-shadow 0.4s ease-in-out;
+ 
 }
 
 .captionimg a:hover {
@@ -167,6 +182,24 @@ body {
 }
 .captionimg h2 {
 	font-family:'Lucida grande';
+}
+
+.sombra {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 5px 7px -9px gray;
+    height: 22px;
+    margin-bottom: 57px;
+    margin-top: -22px;
+    position: static;
+    width: 100%;
+}
+
+.imagen-main {
+background-image: url("../img/contenidos/diapositiva.png");
+    background-size: 100% auto;
+    height: 57px;
+    width: 100%;
+
 }
 /* BARRA DE NAVEGACIÓN SUPERIOR */
 
@@ -219,6 +252,10 @@ body {
 .superior .navbar-inverse .nav > li > a {
 	color: #9E9E9E;
 	transition: color 0.3s ease-in-out;
+	    -webkit-transition: color 0.3s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: color 0.3s ease-out;  /* Firefox 4-15 */
+    -o-transition: color 0.3s ease-out;  /* Opera 10.5–12.00 */
+
 }
 
 .superior .navbar-inverse .nav > li > a:hover {
@@ -253,6 +290,10 @@ body {
 
 .navbar .nav > li > a {
 	transition: color 0.2s ease-in-out;
+		    -webkit-transition: color 0.2s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: color 0.2s ease-out;  /* Firefox 4-15 */
+    -o-transition: color 0.2s ease-out;  /* Opera 10.5–12.00 */
+	
 }
 .menuscrollsi {
 	opacity:0.1;
@@ -262,6 +303,16 @@ body {
 */
 	border-bottom: 1px solid #DDDDDD;
 	box-shadow: 0 5px 15px -8px grey;
+	
+	    border-bottom: 1px solid #DDDDDD;
+    box-shadow: 0 5px 15px -8px grey;
+    margin-top: -60px;
+    opacity: 1;
+    position: absolute;
+    	background-color: white;
+    		width: 100%;
+    			z-index: 100;
+	
 }
 .menuscroll {
 	background-color: white;
@@ -275,7 +326,10 @@ body {
 	-moz-transform: translate(0px,-200px);
 	-o-transform: translate(0px,-100px);
 	-ms-transform: translate(0px,-100px);
-	transition: margin-top 1s ease-in-out;
+	transition: margin-top 0.6s ease-in-out;
+		    -webkit-transition: margin-top 0.6s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: margin-top 0.6s ease-out;  /* Firefox 4-15 */
+    -o-transition: margin-top 0.6s ease-out;  /* Opera 10.5–12.00 */
 } 
 
 .menu-sup .navbar {
@@ -292,6 +346,8 @@ body {
 }
 
 .menu-sup .navbar-inner {
+	
+	-webkit-box-shadow: inherit;
 	box-shadow: inherit;
 	filter:inherit;
 }
@@ -379,6 +435,9 @@ body {
 	width: 42px;
 	cursor:pointer;
 	transition: border-color 0.4s ease-in-out;
+		    -webkit-transition: border-color 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: border-color 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: border-color 0.4s ease-out;  /* Opera 10.5–12.00 */	
 }
 
 .nav-carousel .thumb:hover {
@@ -400,6 +459,9 @@ body {
 	position:absolute;
 	border-radius: 100px 100px 100px 100px;
 	transition: background-color 0.4s ease-in-out;
+			    -webkit-transition: background-color 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: background-color 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: background-color 0.4s ease-out;  /* Opera 10.5–12.00 */	
 }
 
 .thumb .thumb-estado:hover {
@@ -443,6 +505,9 @@ background-color:black;
 .mascara img {
 	opacity:1;
 	transition: opacity 0.5s ease-in-out;
+			    -webkit-transition:opacity 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: opacity 0.5s ease-out;  /* Firefox 4-15 */
+    -o-transition: opacity 0.5s ease-out;  /* Opera 10.5–12.00 */	
 }
 .mascara img:hover  {
 	opacity:0.9;
@@ -461,7 +526,8 @@ a:hover {
 
 a.thumbnail:hover {
 	border-color:rgba(127,127,127,0.29);
-	box-shadow:0px 1px 3px rgba(0,0,0,0.26)
+	-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.26);
+	box-shadow:0px 1px 3px rgba(0,0,0,0.26);
 }
 
 .th9,.th10,.th11 {
@@ -573,6 +639,14 @@ background-size: 100% auto, auto;
 	padding-bottom:10px;
 	display:block;
 	transition:border-color 0.4s ease-in-out;
+		transition: border-color 0.4s ease-in-out;
+		    -webkit-transition: border-color 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: border-color 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: border-color 0.4s ease-out;  /* Opera 10.5–12.00 */	
+    	transition: color 0.4s ease-in-out;
+		    -webkit-transition: color 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: color 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: color 0.4s ease-out;  /* Opera 10.5–12.00 */	
 	transition:color 0.4s ease-in-out;
 }
 
@@ -634,6 +708,10 @@ background-size: 100% auto, auto;
     padding: 13px 22px;
     text-transform:uppercase;
     transition:background-color 0.4s ease-in-out;
+    	transition: background-color 0.4s ease-in-out;
+		    -webkit-transition: background-color 0.4s ease-out;  /* Safari 3.2+, Chrome */
+    -moz-transition: background-color 0.4s ease-out;  /* Firefox 4-15 */
+    -o-transition: background-color 0.4s ease-out;  /* Opera 10.5–12.00 */	
 
 }
 
@@ -701,3 +779,4 @@ background-size: 100% auto, auto;
 .thumbpadre span {
 	color:grey;
 }
+

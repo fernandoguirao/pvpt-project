@@ -1,17 +1,8 @@
 <?php include ('header.php'); ?>
 
-				<div id="cuerpo" class="quienes-somos">
-				<div class="container">
-					<div class="captionimg">
-						<h2>
-							Este es el titular.
-						</h2>
-						<div class="masinfo">
-							<a href="">Esto es un botón</a>
-						</div>
-					</div>
-					</div> 
-					<img src="img/contenidos/diapositiva.png" alt="" width="100%" />
+				<div id="cuerpo" class="noticias">
+
+					<div class="imagen-main"></div>
 					
 					<div id="contenido" class="container">
 						<ul class="thumbnails">
@@ -71,7 +62,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso4" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título de la noticia</h2>
@@ -168,7 +159,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso4" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img01.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título de la noticia</h2>
@@ -262,7 +253,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso4" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título de la noticia</h2>
@@ -307,7 +298,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso4" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img01.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título de la noticia</h2>
