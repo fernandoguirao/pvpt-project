@@ -648,7 +648,8 @@ background-size: 100% auto, auto;
 
 .modal h3 {
     padding: 0 14px!important;
-    color: #797878!important;
+/*     color: #797878!important; */
+		color:black!important;
     font-family: 'Rawengulklight'!important;
     font-size: 16px!important;
     font-weight: lighter!important;
@@ -668,8 +669,35 @@ background-size: 100% auto, auto;
 }
 
 .modal p {
-	    color: #CDC9C3;
+	    /* color: #CDC9C3; */
+	    color: grey;
     font-size: 12px;
     line-height: 17px;
     padding: 0 19px 5px;
+}
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    font-family: RawengulkLight;
+    font-size: 15px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+/*     color:#797878 !important; */
+    color:black!important;
+}
+
+.modal .table {
+	margin-top: -10px;
+}
+
+.thumbpadre h6 {
+	color:lightgrey;
+	font-weight:normal;
+	padding-left:20px;
+	padding-top:10px;
+	border-top:1px dashed lightgrey;
+}
+
+.thumbpadre span {
+	color:grey;
 }
