@@ -15,7 +15,7 @@
 					
 					<div id="contenido" class="container">
 						<ul class="thumbnails">
-							<li class="span3 columna01">
+							<li class="span3 row1">
 							
 								<!-- PRINCIPIO DE CURSO -->
 								
@@ -190,6 +190,12 @@
 								</div> <!-- FIN DE CURSO -->
 
 								
+							</li>
+							<li class="span3 row2">
+							</li>
+							<li class="span3 row3">
+							</li>
+							<li class="span3 row4">
 							</li>
 						</ul>
 					</div>
