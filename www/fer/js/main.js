@@ -99,3 +99,17 @@ $document.scroll(function() {
 	}
 });
 
+/* FOTOS CURSOS EN DOS COLUMNAS */
+
+$('.thumbpadre').each(function(indexform) {
+	var mitadImg = $('.modal img',this).length / 2;
+	$(this).find('img').addClass('valor'+indexform);
+	var clase = '.valor' + indexform;
+	$(this).find('.modal img'+ clase).each(function(index, value) {
+		if ((index+1)<=mitadImg) { 
+			$(this).parent().find('.modaliz').append($(value));
+		} else {
+			$(this).parent().find('.modalde').append($(value));
+		}
+	});
+});

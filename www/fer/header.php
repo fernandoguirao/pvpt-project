@@ -112,11 +112,11 @@
 									<ul class="nav pull-right">
 										<!-- class="active" -->
 										<li><a href="quienes-somos.php">Quiénes somos</a></li>
-										<li><a href="#">Cursos</a></li>
-										<li><a href="">Calendario</a></li>
-										<li><a href="#">Noticias</a></li>
-										<li><a href="">Formadores</a></li>
-										<li><a href="">Bolsa de trabajo</a></li>
+										<li><a href="cursos.php">Cursos</a></li>
+										<li><a href="calendario.php">Calendario</a></li>
+										<li><a href="noticias.php">Noticias</a></li>
+										<li><a href="formadores.php">Formadores</a></li>
+										<li><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
 									</ul>
 								</div>
 							</div>
@@ -135,11 +135,11 @@
 										<ul class="nav pull-right">
 											<!-- class="active" -->
 											<li><a href="quienes-somos.php">Quiénes somos</a></li>
-											<li><a href="#">Cursos</a></li>
-											<li><a href="">Calendario</a></li>
-											<li><a href="#">Noticias</a></li>
-											<li><a href="">Formadores</a></li>
-											<li><a href="">Bolsa de trabajo</a></li>
+											<li><a href="cursos.php">Cursos</a></li>
+											<li><a href="calendario.php">Calendario</a></li>
+											<li><a href="noticias.php">Noticias</a></li>
+											<li><a href="formadores.php">Formadores</a></li>
+											<li><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
 										</ul>
 									</div>
 								</div>

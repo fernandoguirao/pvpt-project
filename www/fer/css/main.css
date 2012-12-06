@@ -116,7 +116,7 @@ button {
 /* GENERALES */
 
 body {
-	background-image:url('../img/txt-bckg.png');
+/* 	background-image:url('../img/txt_bckg.png'); */
 }
 
 #cuerpo {
@@ -159,8 +159,12 @@ body {
     padding: 18px;
     text-decoration: none;
     position:relative;
+    transition:box-shadow 0.4s ease-in-out;
 }
 
+.captionimg a:hover {
+	box-shadow:0px 1px 10px 0px white;
+}
 .captionimg h2 {
 	font-family:'Lucida grande';
 }
@@ -251,7 +255,11 @@ body {
 	transition: color 0.2s ease-in-out;
 }
 .menuscrollsi {
-	opacity:0;
+	opacity:0.1;
+/*
+	height:58px;
+	width:100%;
+*/
 	border-bottom: 1px solid #DDDDDD;
 	box-shadow: 0 5px 15px -8px grey;
 }
@@ -463,6 +471,12 @@ a.thumbnail:hover {
 	border-radius: 0 0 0 0;
 	background-repeat:no-repeat;
 	box-shadow:none;
+background-repeat:no-repeat;
+background-position:center top;
+-o-background-size: 100% auto, auto;
+-moz-background-size: 100% auto, auto;
+-webkit-background-size: 100% auto, auto;
+background-size: 100% auto, auto;
 }
 
 .th11 {
@@ -609,4 +623,53 @@ a.thumbnail:hover {
 
 .footer button {
 	width:100%;
+}
+
+/* CURSOS */
+
+.mas-info {
+    background-color: #ECECEA;
+    color: grey;
+    font-size: 12px;
+    padding: 13px 22px;
+    text-transform:uppercase;
+    transition:background-color 0.4s ease-in-out;
+
+}
+
+.mas-info:hover {
+	background-color:#DDDDDD;
+}
+
+.mas-info .icon-eye-open {
+	opacity: 0.6;
+	margin-right: 6px;
+}
+
+.modal h3 {
+    padding: 0 14px!important;
+    color: #797878!important;
+    font-family: 'Rawengulklight'!important;
+    font-size: 16px!important;
+    font-weight: lighter!important;
+    line-height: 21px!important;
+    text-transform: uppercase!important;
+}
+
+.modal .modaliz,.modal .modalde {
+    display: inline !important;
+    float: left;
+    margin: 0.5%;
+    width: 49%;
+}
+
+.modal img {
+	margin-bottom: 7px;
+}
+
+.modal p {
+	    color: #CDC9C3;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0 19px 5px;
 }
