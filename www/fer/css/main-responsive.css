@@ -1,0 +1,291 @@
+/* ESCRITORIO GRANDE */
+
+@media (min-width: 1201px) { 
+
+.ocultardesktop {
+display:inherit;
+}
+
+.ocultarphone {
+display:none;
+}
+
+}
+
+/* ESCRITORIO SEMIGRANDE */
+
+@media (min-width: 979px) and (max-width: 1200px) { 
+
+.carousel .container {
+top:5%;
+}
+
+.ocultardesktop {
+display:inherit;
+}
+
+.ocultarphone {
+display:none;
+}
+
+}
+ 
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.captionimg {
+    margin-top: 25px;
+}
+
+.captionimg a {
+    border: 1px solid white;
+    color: white;
+    padding: 13px;
+    position: relative;
+    text-decoration: none;
+    top: 27px;
+}
+
+.captionimg h2 {
+	    font-size: 25.5px;
+    margin-top: 2px;
+    line-height: 35px;
+}
+
+.footer .span3 {
+	margin-left:0px;
+	width:240px;
+}
+
+.ocultardesktop {
+display:none;	
+}
+
+.ocultarphone {
+display:inherit;	
+}
+
+
+.carousel .container {
+top:6%;
+}
+
+.carousel .btn {
+    float: right;
+    margin-top: 29px;
+}
+
+.nav-carousel {
+    float: left;
+    margin-top: 17px;
+}
+
+.carousel .lead {
+    margin-bottom: 7px;
+}
+
+.footer .span3 {
+    width: 185px;
+}
+footer {
+
+}
+
+.nav-collapse .nav > li > a {
+font-weight:normal;
+float: left;
+min-height: 15px!important;
+padding: 13px 15px 2px!important;
+}
+
+.nav-collapse .dropdown-menu a {
+    background-color: rgba(0, 0, 0, 0.42);
+    float: left;
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding: 4px 22px;
+}
+
+.nav-header {
+font-weight:normal;
+padding-left:10px;
+display:inline;
+visibility:hidden;
+}
+
+.nav-cerrar {
+	margin-top:-7px!important;
+}
+
+.footer form {
+    padding: 14px 4px;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
+}
+}
+ 
+/* IPHONE EN HORIZONTAL */
+
+@media (max-width: 767px) { 
+
+.captionimg h2 {
+	font-size: 25.5px;
+	line-height:31px;
+}
+
+.captionimg a {
+display:none;
+}
+
+.captionimg {
+	margin-top:34px;
+	width: 364px;
+}
+.ocultardesktop {
+display:none;	
+}
+
+.ocultarphone {
+display:inherit;	
+}
+
+.nav-collapse .nav > li > a {
+font-weight:normal;
+float: left;
+min-height: 15px!important;
+padding: 13px 15px 2px!important;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
+}
+
+.nav-collapse .dropdown-menu a {
+    background-color: rgba(0, 0, 0, 0.42);
+    float: left;
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding: 4px 22px;
+}
+
+.nav-header {
+font-weight:normal;
+padding-left:10px;
+display:inline;
+visibility:hidden;
+}
+
+.nav-cerrar {
+	margin-top:-7px!important;
+}
+
+.footer .span3 {
+
+    display:inline;
+}
+
+.footer img [class*="logo-inv"]{
+	width:0px;
+}
+
+footer {
+	background-image: none;
+	background-color:black;
+	margin-left: -20px;
+}
+
+.carousel h1 {
+    color: white;
+    font-family: RawengulkLight;
+    font-size: 37px;
+    font-weight: normal;
+    line-height: 46px;
+    margin-bottom: 10px;
+    margin-top: -7%;
+    text-transform: uppercase;
+}
+
+.carousel p {
+	font-size:14px;
+	line-height:15px;
+}
+
+}
+ 
+/* IPHONE */
+
+@media (max-width: 480px) {
+
+.captionimg a {
+display:none;
+}
+
+.captionimg h2 {
+    font-size: 17.5px;
+    line-height: 22px;
+    margin-top: -17px;
+    padding: 0 24px 0 10px;
+}
+.ocultardesktop {
+display:none;	
+}
+
+.ocultarphone {
+display:inherit;	
+}
+
+.nav-collapse .nav > li > a {
+font-weight:normal;
+float: left;
+min-height: 15px!important;
+padding: 13px 15px 2px!important;
+}
+
+.footer input, .footer textarea {
+    width: 88%;
+}
+
+.nav-collapse .dropdown-menu a {
+    background-color: rgba(0, 0, 0, 0.42);
+    float: left;
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding: 4px 22px;
+}
+
+.nav-header {
+font-weight:normal;
+padding-left:10px;
+display:inline;
+visibility:hidden;
+}
+
+.nav-cerrar {
+	margin-top:-7px!important;
+}
+
+.carousel h1 {
+    color: white;
+    font-family: RawengulkLight;
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: -31px;
+    text-transform: uppercase;
+}
+.carousel .lead {
+	display:none;
+}
+
+.carousel {
+	display:none;
+}
+
+.mascara {
+overflow:hidden;width:100%;height:141px;
+}
+}

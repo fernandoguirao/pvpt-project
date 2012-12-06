@@ -35,6 +35,7 @@
 			</style>
 			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/main-responsive.css">
 
 				<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		</head>
@@ -45,112 +46,105 @@
 						<p class="chromeframe">Estás utilizando un navegador <strong>muy anticuado</strong>. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> o si te resulta muy incómodo <a href="http://www.google.com/chromeframe/?redirect=true">activa esta aplicación de Google</a> para que tu navegador sea más seguro.</p>
 				<![endif]-->
 
+
+<!-- <div class="pixelperfect" style="opacity:0.4;position:absolute;top:0px;"><img src="fondo.png" alt=""></div> -->
+
 				<!-- 1. HEADER -->
 
 				<header class="jumbotron subhead" id="overview">
 
 					<!-- 1.1. BARRA DE NAVEGACIÓN SUPERIOR. -->
+					<div class="superior">
+						<div class="navbar navbar-inverse navbar-fixed-top">
+								 <div class="navbar-inner">
+										 <div class="container">
+												 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+														 <span class="icon-bar"></span>
+														 <span class="icon-bar"></span>
+														 <span class="icon-bar"></span>
+												 </a>
+												 <a class="brand" href="#">Acceso alumno</a>
+												 <div class="nav-collapse collapse">
+														 <ul class="nav">
+																 <li class="dropdown">
+																		 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mis cursos <b class="caret"></b></a>
+																		 <ul class="dropdown-menu">
+																				 <li><a href="#">Curso a</a></li>
+																				 <li><a href="#">Curso b</a></li>
+																				 <li><a href="#">Curso c</a></li>
+																				 <li class="divider"></li>
+																				 <li class="nav-header">Otros cursos</li>
+																				 <li><a href="#">Curso d</a></li>
+																				 <li><a href="#">Curso e</a></li>
+																		 </ul>
+																 </li>
+																 <li><a href="#contact">Valoración</a></li>
+																 <li><a href="#contact">Contacto con el profesor</a></li>
+																 <li><a href="#contact">Mi calendario</a></li>
+														 </ul>
+	
+														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="#">
+														 	<i class="icon-off icon-white"></i> Cerrar sesión
+														 </a>
+	<!--
+														 <form class="navbar-form pull-right">
+																 <input class="span2" type="text" placeholder="Email">
+																 <input class="span2" type="password" placeholder="Contraseña">
+																 <button type="submit" class="btn">Sign in</button>
+														 </form>
+	-->
+												 </div><!--/.nav-collapse -->
+										 </div>
+								 </div>
+						 </div>
+					 </div><!-- / FIN BARRA DE NAVEGACIÓN SUPERIOR -->
 
-					 <div class="navbar navbar-inverse navbar-fixed-top">
-							 <div class="navbar-inner">
-									 <div class="container">
-											 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-													 <span class="icon-bar"></span>
-													 <span class="icon-bar"></span>
-													 <span class="icon-bar"></span>
-											 </a>
-											 <a class="brand" href="#">Acceso alumno</a>
-											 <div class="nav-collapse collapse">
-													 <ul class="nav">
-															 <li class="dropdown">
-																	 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mis cursos <b class="caret"></b></a>
-																	 <ul class="dropdown-menu">
-																			 <li><a href="#">Curso a</a></li>
-																			 <li><a href="#">Curso b</a></li>
-																			 <li><a href="#">Curso c</a></li>
-																			 <li class="divider"></li>
-																			 <li class="nav-header">Otros cursos</li>
-																			 <li><a href="#">Curso d</a></li>
-																			 <li><a href="#">Curso e</a></li>
-																	 </ul>
-															 </li>
-															 <li><a href="#contact">Valoración</a></li>
-															 <li><a href="#contact">Contacto con el profesor</a></li>
-															 <li><a href="#contact">Mi calendario</a></li>
-													 </ul>
-
-													 <a class="btn btn-inverse pull-right" href="#">Cerrar sesión</a>
-<!--
-													 <form class="navbar-form pull-right">
-															 <input class="span2" type="text" placeholder="Email">
-															 <input class="span2" type="password" placeholder="Contraseña">
-															 <button type="submit" class="btn">Sign in</button>
-													 </form>
--->
-											 </div><!--/.nav-collapse -->
-									 </div>
-							 </div>
-					 </div> <!-- / FIN BARRA DE NAVEGACIÓN SUPERIOR -->
-
-					 <!-- 1.2. CONTENIDO CABECERA -->
+					<!-- 1.2. CONTENIDO CABECERA-->
 
 					<div class="container">
-					<h1>Pivot point</h1>
-						<div class="row">
-							<div class="span5">
-								<p class="lead">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-							</div>
-							<div class="span5 offset2">
-								<div class="botones-header pull-right">
-									<br>
-									<div class="btn-group">
-										<a class="btn btn-primary btn-mini">
-											<i class="icon-white icon-globe" style="margin-top: 0;"></i>
-										</a>
-										<a class="btn btn-primary btn-mini" href="#"> 
-											Síguenos en Facebook 
-										</a>
-									</div>
-									<div class="btn-group">
-										<a class="btn btn-success btn-mini">
-											<i class="icon-white icon-globe" style="margin-top: 0;"></i>
-										</a>
-										<a class="btn btn-success btn-mini" href="#"> 
-											Pivot Point Internacional 
-										</a>
-									</div>
-
-								</div>
-							</div>
-						</div>
-						
 
 						<!-- 1.2.1. BARRA DE MENÚ -->
 						
-						<div class="navbar">
-							<div class="navbar-inner">
-								<!-- <a class="brand" href="#">Inicio</a> -->
-								<ul class="nav">
-									<!-- class="active" -->
-									<li><a href="#">Quiénes somos</a></li>
-									<li><a href="#">Cursos</a></li>
-									<li><a href="">Calendario</a></li>
-									<li><a href="#">Noticias</a></li>
-									<li><a href="">Formadores</a></li>
-									<li><a href="">Bolsa de trabajo</a></li>
-								</ul>
-								<form class="navbar-search pull-right">
-								 	<input type="text" class="search-query" placeholder="Empieza a buscar">
-								 </form>
-								<!-- <form class="form-search pull-right" style="margin-top: 5px; margin-bottom: 6px;">
-									<div class="input-append">
-										<input type="text" class="span2 search-query">
-										<button type="submit" class="btn">Buscar</button>
-									</div>
-								</form> -->
+						<div class="menu-sup">
+							<div class="navbar">
+								<div class="navbar-inner">
+									<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+									<ul class="nav pull-right">
+										<!-- class="active" -->
+										<li><a href="quienes-somos.php">Quiénes somos</a></li>
+										<li><a href="#">Cursos</a></li>
+										<li><a href="">Calendario</a></li>
+										<li><a href="#">Noticias</a></li>
+										<li><a href="">Formadores</a></li>
+										<li><a href="">Bolsa de trabajo</a></li>
+									</ul>
+								</div>
 							</div>
 						</div> <!-- / FIN DE BARRA DE MENÚ -->
 
 					</div> <!-- / FIN DE CONTENIDO CABECERA -->
+					
+					<!-- MENÚ SCROLL -->
+					
+					<div class="menuscrollsi">
+						<div class="container">
+							<div class="menu-sup">
+								<div class="navbar">
+									<div class="navbar-inner">
+										<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+										<ul class="nav pull-right">
+											<!-- class="active" -->
+											<li><a href="quienes-somos.php">Quiénes somos</a></li>
+											<li><a href="#">Cursos</a></li>
+											<li><a href="">Calendario</a></li>
+											<li><a href="#">Noticias</a></li>
+											<li><a href="">Formadores</a></li>
+											<li><a href="">Bolsa de trabajo</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- FIN MENÚ SCROLL -->
 
 				</header> <!-- / FIN DE CABECERA -->

@@ -1,90 +1,201 @@
 <?php include ('header.php'); ?>
 
 				<!-- 2. CUERPO PRINCIPAL -->
-
-				<div class="container">
-
-					 <!-- 2.1 CAROUSEL -->
-
-					<div id="myCarousel" class="carousel slide">
-
+				
+				<div id="cuerpo" class="index">
+				
+					<!-- 2.1 CAROUSEL -->
+	
+					<div id="myCarousel" class="carousel slide"> 
+	
 						 <!-- 2.1.1 Slides -->
+	
 						 <div class="carousel-inner" >
-							 <div class="active item"><img src="http://placekitten.com/1100/300" alt="" width="100%" /></div>
-							 <div class="item"><img src="http://placekitten.com/1102/300" alt="" width="100%" /></div>
-							 <div class="item"><img src="http://placekitten.com/1101/300" alt="" width="100%" /></div>
-						 </div>
-						 <!-- 2.1.1 Controles carousel -->
-						 <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						 <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-						<!--<div class="pagination">
-							<ul class="nav-carousel">
-								<li><a href="#myCarousel" data-slide="prev">Prev</a></li>
-								<li><a href="#myCarousel" class="car-1">1</a></li>
-								<li><a href="#myCarousel" class="car-2">2</a></li>
-								<li><a href="#myCarousel" class="car-3">3</a></li>
-									 <li><a href="#myCarousel" class="car-4">4</a></li>
-								<li><a href="#myCarousel" data-slide="next">Next</a></li>
-							</ul>
-						</div>-->
+							 <div class="active item">
+								<img src="img/contenidos/slide01.jpg" alt="" width="100%" />
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>Valores únicos para un <strong>espacio único</strong></h1>
+										<p class="lead">
+											Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
+										</p>
+										<a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-book  icon-white"></i>Leer más</a><a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-share icon-white"></i>Compartir</a>
+										<div class="nav-carousel hidden-phone hidden-tablet">
+											<div class="thumb car-1 activo">
+												<div class="thumb-estado"></div>
+												
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											
+											</div>
+											<div class="thumb car-2">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div class="thumb car-3">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div style="clear:both;">
+											</div>
+										</div>
+									 </div>
+								</div>
+							</div>
+							 <div class="item">
+								<img src="img/contenidos/slide01.jpg" alt="" width="100%" />
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>Valores únicos para un <strong>espacio único</strong></h1>
+										<p class="lead">
+											Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
+										</p>
+										<a class="btn btn-link" href="#"><i class="icon-book  icon-white"></i>Leer más</a><a class="btn btn-link" href="#"><i class="icon-share icon-white"></i>Compartir</a>
+										<div class="nav-carousel">
+											<div class="thumb car-1">
+												<div class="thumb-estado"></div>
+												
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+												
+											</div>
+											<div class="thumb car-2 activo">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div class="thumb car-3">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div style="clear:both;">
+											</div>
+										</div>
+									 </div>
+								</div>
+							</div>
+							 <div class="item">
+								<img src="img/contenidos/slide01.jpg" alt="" width="100%" />
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>Valores únicos para un <strong>espacio único</strong></h1>
+										<p class="lead hidden-phone">
+											Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
+										</p>
+										<a class="btn btn-link" href="#"><i class="icon-book  icon-white"></i>Leer más</a><a class="btn btn-link" href="#"><i class="icon-share icon-white"></i>Compartir</a>
+										<div class="nav-carousel">
+											<div class="thumb car-1">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div class="thumb car-2">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div class="thumb car-3 activo">
+												<div class="thumb-estado"></div>
+												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+											</div>
+											<div style="clear:both;">
+											</div>
+										</div>
+									 </div>
+								</div>
+							</div>
+						</div>
 					</div> <!-- / FIN DE CAROUSEL -->
-
-						<!-- 2.2. THUMBS -->
-
-						<!-- 2.2.1. PRIMERA FILA -->
-
-						<div class="row">
-								<div class="span3">
-									<img src="http://placekitten.com/300/200" alt="">
-									<h2>Nuestros cursos</h2>
-									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-									<p><a class="btn" href="#">Ver todos los cursos &raquo;</a></p>
-								</div>
-								<div class="span3">
-									<img src="http://placekitten.com/300/201" alt="">
-									<h2>El área de acceso alumnos</h2>
-									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-									<p><a class="btn" href="#">Accede &raquo;</a></p>
-							 </div>
-								<div class="span3">
-									<img src="http://placekitten.com/300/199" alt="">
-									<h2>Valores de Pivot Point</h2>
-									<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-									<p><a class="btn" href="#">Más detalles &raquo;</a></p>
-								</div>
-								<div class="span3">
-									<img src="http://placekitten.com/300/200" alt="">
-									<h2>Esta es la última noticia</h2>
-									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-									<p><a class="btn" href="#">Seguir leyendo &raquo;</a></p>
-							 </div>
-						</div> <!-- / FIN DE PRIMERA FILA -->
-
-						<hr>
-
-						<!-- 2.2.2. SEGUNDA FILA -->
-
-						<div class="row segunda">
-								<div class="span4">
-									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
-									<h2>Síguenos en Facebook</h2>
-									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-									<p><a class="btn" href="#">View details &raquo;</a></p>
-								</div>
-								<div class="span4">
-									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
-									<h2>Material didáctico</h2>
-									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-									<p><a class="btn" href="#">View details &raquo;</a></p>
-							 </div>
-								<div class="span4">
-									<img src="http://placekitten.com/199/199" alt="" class="img-circle">
-									<h2>Calendario</h2>
-									<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-									<p><a class="btn" href="#">View details &raquo;</a></p>
-								</div>
-						</div> <!-- / FIN DE SEGUNDA FILA -->
-
-						<hr> <!-- / FIN DE THUMBS -->
+	
+	
+					<div class="container">
+	
+							<!-- 2.2. THUMBS -->
+	
+							<!-- 2.2.1. PRIMERA FILA -->
+	
+							<ul class="thumbnails">
+								<li class="span3">
+									<a href="" class="thumbnail th1">
+										<div class="mascara">
+											<img src="img/sprites/img02.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+										</div>
+									</a>
+									<a href="" class="thumbnail th5">
+										<div class="mascara">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<div class="thumbnail th9 hidden-phone"></div>
+								</li>
+								<li class="span3">
+									<a href="" class="thumbnail th2">
+										<div class="mascara">
+											<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<a href="" class="thumbnail th6">
+										<div class="mascara">
+											<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<div class="thumbnail th10 hidden-phone"></div>
+								</li>
+								<li class="span3">
+									<a href="" class="thumbnail th3">
+										<div class="mascara">
+											<img src="img/sprites/foot-img03.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<a href="" class="thumbnail th7">
+										<div class="mascara">
+											<img src="img/sprites/foot-img02.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<div class="thumbnail th11 hidden-phone"></div>
+								</li>
+								<li class="span3">
+									<a href="" class="thumbnail th4">
+										<div class="mascara">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+									<a href="" class="thumbnail th8">
+										<div class="mascara">
+											<img src="img/sprites/img02.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Nuestros cursos</h2>
+											<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div> <!-- / FIN CONTAINER THUMBS -->
+						
+					</div> <!-- / FIN DE CUERPO -->
 
 <?php include ('footer.php'); ?>
