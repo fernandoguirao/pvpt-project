@@ -65,7 +65,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título del curso</h2>
@@ -108,7 +108,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img01.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título del curso</h2>
@@ -151,7 +151,7 @@
 								<div class="thumbpadre">
 									<a href="#curso-modal-nombrecurso" class="thumbnail th1" data-toggle="modal">
 										<div class="mascara">
-											<img src="img/sprites/img02.jpg" width="100%" alt="">
+											<img src="img/sprites/img03.jpg" width="100%" alt="">
 										</div>
 										<div class="texto-th">
 											<h2>Título del curso</h2>
