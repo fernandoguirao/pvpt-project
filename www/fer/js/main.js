@@ -99,12 +99,25 @@ $document.scroll(function() {
 	}
 });
 
-/* FOTOS CURSOS EN DOS COLUMNAS */
+/* THUMBS EN COLUMNAS Y FOTOS CURSOS EN DOS COLUMNAS */
 
 $('.thumbpadre').each(function(indexform) {
 	var mitadImg = $('.modal img',this).length / 2;
 	$(this).find('img').addClass('valor'+indexform);
 	var clase = '.valor' + indexform;
+	
+	var division = $('.thumbpadre').length / 4;
+	
+	if(indexform < division) {
+		$('.row1').append($(this));
+	} else if (indexform < (division * 2)) {
+		$('.row2').append($(this));
+	} else if (indexform < (division * 3)) {
+		$('.row3').append($(this));
+	} else { 
+		$('.row4').append($(this));
+	}
+	
 	$(this).find('.modal img'+ clase).each(function(index, value) {
 		if ((index+1)<=mitadImg) { 
 			$(this).parent().find('.modaliz').append($(value));
@@ -112,4 +125,5 @@ $('.thumbpadre').each(function(indexform) {
 			$(this).parent().find('.modalde').append($(value));
 		}
 	});
+	
 });
