@@ -189,6 +189,48 @@
 									</div> <!-- FIN DE CURSO MODAL -->
 								</div> <!-- FIN DE CURSO -->
 
+								<!-- PRINCIPIO DE CURSO -->
+								
+								<div class="thumbpadre">
+									<a href="#curso-modal-nombrecurso" class="thumbnail th1" data-toggle="modal">
+										<div class="mascara">
+											<img src="img/sprites/img02.jpg" width="100%" alt="">
+										</div>
+										<div class="texto-th">
+											<h2>Título del curso</h2>
+											<p>
+												Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
+											</p>
+											<div class="mas-info">
+												<i class="icon-eye-open"></i>
+												Más información
+											</div>
+										</div>
+									</a>
+									<!-- CURSO MODAL -->
+									<div id="curso-modal-nombrecurso" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									  <div class="modal-header">
+									    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+									    <h3 id="myModalLabel">Título del curso</h3>
+									  </div>
+									  <div class="modal-body">
+									    <p>
+												Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis.
+											</p>
+									    <img src="img/sprites/img03.jpg" width="100%" alt="">
+									    <img src="img/sprites/img01.jpg" width="100%" alt="">
+									    <img src="img/sprites/img02.jpg" width="100%" alt="">
+									    <img src="img/sprites/img02.jpg" width="100%" alt="">
+									    <img src="img/sprites/img03.jpg" width="100%" alt="">
+									    <img src="img/sprites/img01.jpg" width="100%" alt="">
+									    <div class="modaliz"></div>
+									    <div class="modalde"></div>
+									  </div>
+									  <div class="modal-footer">
+									    <button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar y volver al resto de cursos</button>
+									  </div>
+									</div> <!-- FIN DE CURSO MODAL -->
+								</div> <!-- FIN DE CURSO -->
 								
 							</li>
 							<li class="span3 row2">
