@@ -2,6 +2,7 @@
 
 				<div id="cuerpo" class="formadores">
 					<div class="sombra hidden-desktop"></div>
+										<div class="mini-header imgbarra">
 				<div class="container">
 					<div class="captionimg">
 						<h2>
@@ -11,7 +12,7 @@
 					</div> 
 
 					<div class="imagen-main"></div>
-					
+										</div>
 					<div id="contenido" class="container">
 						<ul class="thumbnails">
 							<li class="span3 row1">
