@@ -47,6 +47,10 @@ display:none;
     top: 27px;
 }
 
+.formadores .captionimg {
+	margin-top:12px!important;
+}
+
 .captionimg h2 {
 	    font-size: 25.5px;
     margin-top: 2px;
@@ -213,6 +217,9 @@ footer {
 	line-height:15px;
 }
 
+.formadores .captionimg {
+margin-top:12px !important;
+text-align:center;
 }
  
 /* IPHONE */

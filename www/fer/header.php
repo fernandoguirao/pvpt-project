@@ -111,7 +111,7 @@
 									<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
-										<li><a href="quienes-somos.php">Quiénes somos</a></li>
+										<li><a href="quienes-somos.php" class="activo">Quiénes somos</a></li>
 										<li><a href="cursos.php">Cursos</a></li>
 										<li><a href="calendario.php">Calendario</a></li>
 										<li><a href="noticias.php">Noticias</a></li>
@@ -126,8 +126,8 @@
 					
 					<!-- MENÚ SCROLL -->
 					
-					<div class="menuscrollsi">
-						<div class="container">
+					<div class="menuscrollsi visible-desktop">
+						<div class="container visible-desktop">
 							<div class="menu-sup">
 								<div class="navbar">
 									<div class="navbar-inner">

@@ -201,6 +201,12 @@ background-image: url("../img/contenidos/diapositiva.png");
     width: 100%;
 
 }
+
+.activo {
+	border-bottom-color:#D3D3D3;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+}
 /* BARRA DE NAVEGACIÓN SUPERIOR */
 
 
@@ -780,3 +786,12 @@ background-size: 100% auto, auto;
 	color:grey;
 }
 
+/* FORMADORES */
+
+.formadores .imagen-main {
+	height:79px;
+}
+
+.formadores .captionimg {
+	margin-top:7px;
+}
