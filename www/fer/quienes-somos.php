@@ -1,17 +1,19 @@
 <?php include ('header.php'); ?>
 
 				<div id="cuerpo" class="quienes-somos">
-					<div class="container">
-						<div class="captionimg">
-							<h2>
-								En Pivot Point Valencia inter eras cras justo odio, dabipus ac facilisis in.
-							</h2>
-							<div class="masinfo">
-								<a href="">Solicita ahora bla bla</a>
+					<div class="mini-header">
+						<div class="container">
+							<div class="captionimg">
+								<h2>
+									En Pivot Point Valencia inter eras cras justo odio, dabipus ac facilisis in.
+								</h2>
+								<div class="masinfo">
+									<a href="">Solicita ahora bla bla</a>
+								</div>
 							</div>
-						</div>
-					</div> 
-					<img src="img/contenidos/diapositiva.png" alt="" width="100%" />
+						</div> 
+						<img src="img/contenidos/diapositiva.png" alt="" width="100%" />
+					</div>
 					
 					<div id="contenido" class="container">
 						<div class="row">
