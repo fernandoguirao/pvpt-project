@@ -132,8 +132,8 @@
 					
 					<!-- MENÚ SCROLL -->
 					
-					<div class="menuscrollsi visible-desktop">
-						<div class="container visible-desktop">
+					<div class="menuscroll visible-desktop">
+						<div class="container">
 							<div class="menu-sup">
 								<div class="navbar">
 									<div class="navbar-inner">

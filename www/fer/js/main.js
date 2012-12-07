@@ -1,5 +1,21 @@
+/* FUNCIÓN SCROLL HEADER */
+
+$('.menuscroll').css('opacity','1');
+$(window).scroll(function() {
+
+        if ($(this).scrollTop() >= 100) {
+	      $('.menuscroll').stop().animate({top: '203'});
+        } else {
+        $('.menuscroll').stop().animate({top: '103'});
+  
+        }
+    });
+
+
+
+
 /* CAROUSEL */
-	
+
 $('.carousel').carousel({
   interval: 500000
 })
@@ -78,27 +94,6 @@ $('.fondo-footer,.footer-textura,.contiene-bckg-foot').height(tamanofooter);
 /* 	$('.footbckg').width(tamanofooter*8); */
 
 
-/* MENÚ DE SCROLL */
-
-$('.menuscrollsi').hide();
-var $document = $(document),
-$element = $('.menuscrollsi'),
-className = 'menuscroll hidden-phone hidden-tablet';
-
-$document.scroll(function() {
-	if ($document.scrollTop() >= 150) {
-		// user scrolled 50 pixels or more;
-		// do stuff
-		$('.menuscrollsi').show(function(){
-			 $element.addClass(className);
-		});
-	} else {
-		$('.menuscrollsi').fadeOut(function(){
-			$element.removeClass(className);
-		});
-	}
-});
-
 /* THUMBS EN COLUMNAS Y FOTOS CURSOS EN DOS COLUMNAS */
 
 $('.thumbpadre').each(function(indexform) {
@@ -127,3 +122,21 @@ $('.thumbpadre').each(function(indexform) {
 	});
 	
 });
+
+
+
+/* PLACEHOLDER IE */
+
+$('[placeholder]').focus(function() {
+  var input = $(this);
+  if (input.val() == input.attr('placeholder')) {
+    input.val('');
+    input.removeClass('placeholder');
+  }
+}).blur(function() {
+  var input = $(this);
+  if (input.val() == '' || input.val() == input.attr('placeholder')) {
+    input.addClass('placeholder');
+    input.val(input.attr('placeholder'));
+  }
+}).blur();

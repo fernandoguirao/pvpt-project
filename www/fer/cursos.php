@@ -447,12 +447,12 @@
 											</p>
 											
 											<!-- ACORDEÓN -->
-											<div class="accordion" id="accordion2">
+											<div class="accordion" id="accordionp">
 
 												<!-- MATERIAL DEL CURSO -->
 												<div class="accordion-group">
 													<div class="accordion-heading">
-														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionp" href="#collapseOne">
 															Material del curso
 														</a>
 													</div>
@@ -484,8 +484,8 @@
 												<!-- MULTIMEDIA -->
 												<div class="accordion-group">
 													<div class="accordion-heading">
-														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-															Contenido multimedia
+														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionp" href="#collapseTwo">
+															Contenido multimediaa
 														</a>
 													</div>
 													<div id="collapseTwo" class="accordion-body collapse in">
