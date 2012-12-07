@@ -51,3 +51,17 @@
 							</ul>
 							
 //Nota: todos los de una misma columna deben incluirse dentro del 'li' de esa columna (dentro de sucesivas etiquetas 'a').
+
+*Si queremos una imagen con el título de la página previa al contenido
+
+					<div class="mini-header imgbarra">
+						<div class="container">
+							<div class="captionimg">
+								<h2>
+									Bolsa de trabajo
+								</h2>
+							</div>
+						</div> 
+						<div class="imagen-main">
+						</div>
+					</div>

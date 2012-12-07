@@ -1,18 +1,23 @@
 <?php include ('header.php'); ?>
 
 				<div id="cuerpo" class="formadores">
-					<div class="sombra hidden-desktop"></div>
-										<div class="mini-header imgbarra">
-				<div class="container">
-					<div class="captionimg">
-						<h2>
-							Nuestros formadores.
-						</h2>
+					<div class="sombra hidden-desktop">
 					</div>
-					</div> 
-
-					<div class="imagen-main"></div>
-										</div>
+					
+					<!-- TITULAR E IMAGEN -->
+					<div class="mini-header imgbarra">
+						<div class="container">
+							<div class="captionimg">
+								<h2>
+									Nuestros formadores.
+								</h2>
+							</div>
+						</div> 
+						<div class="imagen-main"
+						</div>
+					</div>
+					
+					<!-- CONTENIDOS -->
 					<div id="contenido" class="container">
 						<ul class="thumbnails">
 							<li class="span3 row1">

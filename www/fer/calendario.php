@@ -1,7 +1,8 @@
 <?php include ('header.php'); ?>
 
 				<div id="cuerpo" class="formadores">
-					<div class="sombra hidden-desktop"></div>
+					<div class="sombra hidden-desktop">
+					</div>
 					<div class="mini-header imgbarra">
 						<div class="container">
 							<div class="captionimg">

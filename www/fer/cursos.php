@@ -1,17 +1,24 @@
 <?php include ('header.php'); ?>
 
 				<div id="cuerpo" class="quienes-somos">
-				<div class="container">
-					<div class="captionimg">
-						<h2>
-							Este es el titular.
-						</h2>
-						<div class="masinfo">
-							<a href="">Esto es un botón</a>
+				
+					<!-- TITULAR E IMAGEN -->
+					
+					<div class="container">
+						<div class="captionimg">
+							<h2>
+								Este es el titular.
+							</h2>
+							<div class="masinfo">
+								<a href="">
+									Esto es un botón
+								</a>
+							</div>
 						</div>
-					</div>
 					</div> 
 					<img src="img/contenidos/diapositiva.png" alt="" width="100%" />
+					
+					<!-- CONTENIDOS -->
 					
 					<div id="contenido" class="container">
 						<ul class="thumbnails">
