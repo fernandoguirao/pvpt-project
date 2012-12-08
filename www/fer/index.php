@@ -14,31 +14,33 @@
 							 <div class="active item">
 								<img src="img/contenidos/slide01.jpg" alt="" width="100%" />
 								<div class="container">
-									<div class="carousel-caption">
-										<h1>Valores únicos para un <strong>espacio único</strong></h1>
-										<p class="lead">
-											Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
-										</p>
-										<a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-book  icon-white"></i>Leer más</a><a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-share icon-white"></i>Compartir</a>
-										<div class="nav-carousel hidden-phone hidden-tablet">
-											<div class="thumb car-1 activo">
-												<div class="thumb-estado"></div>
+									<div class="fix-ie7">
+										<div class="carousel-caption">
+											<h1>Valores únicos para un <strong>espacio único</strong></h1>
+											<p class="lead">
+												Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia.
+											</p>
+											<a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-book  icon-white"></i>Leer más</a><a class="btn btn-link hidden-phone hidden-tablet" href="#"><i class="icon-share icon-white"></i>Compartir</a>
+											<div class="nav-carousel hidden-phone hidden-tablet">
+												<div class="thumb car-1 activo">
+													<div class="thumb-estado"></div>
+													
+													<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
 												
-												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
-											
-											</div>
-											<div class="thumb car-2">
-												<div class="thumb-estado"></div>
-												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
-											</div>
-											<div class="thumb car-3">
-												<div class="thumb-estado"></div>
-												<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
-											</div>
-											<div style="clear:both;">
+												</div>
+												<div class="thumb car-2">
+													<div class="thumb-estado"></div>
+													<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+												</div>
+												<div class="thumb car-3">
+													<div class="thumb-estado"></div>
+													<img src="img/contenidos/slide01.jpg" alt="" width="200px" />
+												</div>
+												<div style="clear:both;">
+												</div>
 											</div>
 										</div>
-									 </div>
+									</div>
 								</div>
 							</div>
 							 <div class="item">

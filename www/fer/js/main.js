@@ -1,3 +1,7 @@
+/* PRECARGADOR */
+
+$("body").queryLoader2();
+
 /* FUNCIÓN SCROLL HEADER */
 
 $('.menuscroll').css('opacity','1');

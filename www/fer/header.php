@@ -41,9 +41,13 @@
 			<!--[if lt IE 9]>
 				<link rel="stylesheet" type="text/css" href="css/ie8.css" />
 			<![endif]-->
+			<!--[if lt IE 8]>
+				<link rel="stylesheet" type="text/css" href="css/ie7.css" />
+			<![endif]-->
 			<link rel="stylesheet" href="css/main-responsive.css">
 
-				<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+			<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
 		</head>
 
 		<body>
