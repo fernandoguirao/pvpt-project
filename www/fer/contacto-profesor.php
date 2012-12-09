@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
 
-				<div id="cuerpo" class="contacta">
+				<div id="cuerpo" class="contactoconelprofesor">
 				
 					<!-- CONTENIDOS -->
 					

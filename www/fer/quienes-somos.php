@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
 
-				<div id="cuerpo" class="quienes-somos">
+				<div id="cuerpo" class="quienessomos">
 					<div class="mini-header">
 						<div class="container">
 							<div class="captionimg">

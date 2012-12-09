@@ -16,6 +16,34 @@ $(window).scroll(function() {
     });
 
 
+/* HEADER ACTIVE */
+
+
+if ($('.cursos').length > 0) {
+	$('.licursos').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.quienessomos').length > 0) {
+	$('.liquienessomos').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.calendario').length > 0) {
+	$('.licalendario').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.noticias').length > 0) {
+	$('.linoticias').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.formadores').length > 0) {
+	$('.liformadores').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.bolsadetrabajo').length > 0) {
+	$('.libolsadetrabajo').css('border-bottom', '2px solid #D3D3D3');
+} else if ($('.programa').length > 0) {
+	$('.liprograma').css('color', 'white');
+} else if ($('.material').length > 0) {
+	$('.limaterial').css('color', 'white');
+} else if ($('.valoracion').length > 0) {
+	$('.livaloracion').css('color', 'white');
+} else if ($('.contactoconelprofesor').length > 0) {
+	$('.licontactoconelprofesor').css('color', 'white');
+} else if ($('.micalendario').length > 0) {
+	$('.limicalendario').css('color', 'white');
+} else {
+	
+}
 
 
 /* CAROUSEL */

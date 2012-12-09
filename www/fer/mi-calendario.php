@@ -1,6 +1,6 @@
 <?php include ('header.php'); ?>
 
-				<div id="cuerpo" class="mi-calendario">
+				<div id="cuerpo" class="micalendario">
 
 
 					<div id="contenido" class="container">

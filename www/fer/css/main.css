@@ -788,10 +788,10 @@ background-size: 100% auto, auto;
     text-align: left;
 }
 
-.contacta input,.contacta textarea {
+.contactoconelprofesor input,.contactoconelprofesor textarea {
 	width:100%;
 }
 
-.contacta .radio, .contacta .checkbox {
+.contactoconelprofesor .radio, .contactoconelprofesor .checkbox {
 	width:14px!important;
 }

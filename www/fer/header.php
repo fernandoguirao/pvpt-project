@@ -82,11 +82,11 @@
 												 <a class="brand" href="#">Acceso alumno</a>
 												 <div class="nav-collapse collapse">
 														 <ul class="nav">
-																 <li class="dropdown"><a href="programa.php">Programa</a></li>
-																 <li class="dropdown"><a href="material.php">Material</a></li>
-																 <li><a href="valoracion.php">Valoración</a></li>
-																 <li><a href="contacto-profesor.php">Contacto con el profesor</a></li>
-																 <li><a href="mi-calendario.php">Mi calendario</a></li>
+																 <li class="dropdown"><a href="programa.php" class="liprograma">Programa</a></li>
+																 <li class="dropdown"><a href="material.php" class="limaterial">Material</a></li>
+																 <li><a href="valoracion.php" class="livaloracion">Valoración</a></li>
+																 <li><a href="contacto-profesor.php" class="licontactoconelprofesor">Contacto con el profesor</a></li>
+																 <li><a href="mi-calendario.php" class="limicalendario">Mi calendario</a></li>
 														 </ul>
 	
 														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="#">
@@ -117,12 +117,12 @@
 									<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
-										<li><a href="quienes-somos.php" class="activo">Quiénes somos</a></li>
-										<li><a href="cursos.php">Cursos</a></li>
-										<li><a href="calendario.php">Calendario</a></li>
-										<li><a href="noticias.php">Noticias</a></li>
-										<li><a href="formadores.php">Formadores</a></li>
-										<li><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
+										<li class="liquienessomos"><a href="quienes-somos.php">Quiénes somos</a></li>
+										<li class="licursos"><a href="cursos.php">Cursos</a></li>
+										<li class="licalendario"><a href="calendario.php">Calendario</a></li>
+										<li class="linoticias"><a href="noticias.php">Noticias</a></li>
+										<li class="liformadores"><a href="formadores.php">Formadores</a></li>
+										<li class="libolsadetrabajo"><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
 									</ul>
 								</div>
 							</div>
