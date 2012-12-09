@@ -52,8 +52,8 @@
 
     var qLoptions = {
         onComplete: function () {},
-        backgroundColor: "#000",
-        barColor: "#fff",
+        backgroundColor: "#ffffff",
+        barColor: "lightgray",
         barHeight: 1,
         percentage: false,
         deepSearch: true,

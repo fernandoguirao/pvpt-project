@@ -231,10 +231,12 @@ display:none;
 }
 
 .captionimg h2 {
-    font-size: 17.5px;
-    line-height: 22px;
-    margin-top: -17px;
-    padding: 0 24px 0 10px;
+    font-size: 17.5px!important;
+    font-size: 17.5px!important;
+    line-height: 22px!important;
+    margin-top: 10px!important;
+    padding: 0 28px 0 0!important;
+    text-align: center!important;
 }
 .ocultardesktop {
 display:none;	

@@ -46,7 +46,13 @@
 			<![endif]-->
 			<link rel="stylesheet" href="css/main-responsive.css">
 
+			<!-- PRIMEROS SCRIPTS -->
 			<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/vendor/queryloader2.js" type="text/javascript"></script>
 
 		</head>
 
@@ -76,21 +82,11 @@
 												 <a class="brand" href="#">Acceso alumno</a>
 												 <div class="nav-collapse collapse">
 														 <ul class="nav">
-																 <li class="dropdown">
-																		 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mis cursos <b class="caret"></b></a>
-																		 <ul class="dropdown-menu">
-																				 <li><a href="#">Curso a</a></li>
-																				 <li><a href="#">Curso b</a></li>
-																				 <li><a href="#">Curso c</a></li>
-																				 <li class="divider"></li>
-																				 <li class="nav-header">Otros cursos</li>
-																				 <li><a href="#">Curso d</a></li>
-																				 <li><a href="#">Curso e</a></li>
-																		 </ul>
-																 </li>
-																 <li><a href="#contact">Valoración</a></li>
-																 <li><a href="#contact">Contacto con el profesor</a></li>
-																 <li><a href="#contact">Mi calendario</a></li>
+																 <li class="dropdown"><a href="programa.php">Programa</a></li>
+																 <li class="dropdown"><a href="material.php">Material</a></li>
+																 <li><a href="valoracion.php">Valoración</a></li>
+																 <li><a href="contacto-profesor.php">Contacto con el profesor</a></li>
+																 <li><a href="mi-calendario.php">Mi calendario</a></li>
 														 </ul>
 	
 														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="#">

@@ -773,5 +773,25 @@ background-size: 100% auto, auto;
 	color:grey;
 }
 
-/* FORMADORES */
+/* CURSOS */
 
+.programa .thumbnail h2, .material .thumbnail h2  {
+	margin-bottom:0px!important;
+}
+
+.form-horizontal .controls {
+    margin-left: 0;
+    margin-top: 31px;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.contacta input,.contacta textarea {
+	width:100%;
+}
+
+.contacta .radio, .contacta .checkbox {
+	width:14px!important;
+}
