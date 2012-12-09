@@ -5,6 +5,10 @@
 					<!-- CONTENIDOS -->
 					
 					<div id="contenido" class="container">
+						<ul class="breadcrumb">
+							<li>Acceso alumnos <span class="divider">/</span></li>
+							<li class="active">Contacto con el profesor </li>
+						</ul>
 						<div class="row">
 							<ul class="thumbnails span4">
 								<li class="span3 row1">

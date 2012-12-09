@@ -135,6 +135,9 @@ visibility:hidden;
 
 @media (max-width: 767px) { 
 
+.contactoconelprofesor .mascara {
+	display:none!important;
+}
 .captionimg h2 {
 	font-size: 25.5px;
 	line-height:31px;
