@@ -18,23 +18,23 @@
 
 			<!-- 0.2. ICONOS PARA SMARTPHONE -->
 
-			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/smarticons/apple-touch-icon-144x144-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/smarticons/apple-touch-icon-114x114-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/smarticons/apple-touch-icon-72x72-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/smarticons/apple-touch-icon-57x57-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" href="img/smarticons/apple-touch-icon-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php bloginfo('template_url'); ?>/img/smarticons/apple-touch-icon-144x144-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php bloginfo('template_url'); ?>/img/smarticons/apple-touch-icon-114x114-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php bloginfo('template_url'); ?>/img/smarticons/apple-touch-icon-72x72-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php bloginfo('template_url'); ?>/img/smarticons/apple-touch-icon-57x57-precomposed.png">
+			<link rel="apple-touch-icon-precomposed" href="<?php bloginfo('template_url'); ?>/img/smarticons/apple-touch-icon-precomposed.png">
 
 			<!-- 0.3. ESTILOS -->
 			
-			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
 			<style>
 					body {
 							padding-top: 60px;
 							/* padding-bottom: 40px; */
 					}
 			</style>
-			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap-responsive.min.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main.css">
 			<!--[if IE]>
 				<link rel="stylesheet" type="text/css" href="css/ie.css" />
 			<![endif]-->
@@ -44,7 +44,16 @@
 			<!--[if lt IE 8]>
 				<link rel="stylesheet" type="text/css" href="css/ie7.css" />
 			<![endif]-->
-			<link rel="stylesheet" href="css/main-responsive.css">
+			<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/main-responsive.css">
+			
+			<!-- MAILCHIMP CSS -->
+			<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style     block.
+                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <!-- FIN DE MAILCHIMP CSS -->
 
 			<!-- PRIMEROS SCRIPTS -->
 			<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -114,7 +123,7 @@
 						<div class="menu-sup">
 							<div class="navbar">
 								<div class="navbar-inner">
-									<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+									<a class="brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
 										<li class="liquienessomos"><a href="quienes-somos.php">Quiénes somos</a></li>
