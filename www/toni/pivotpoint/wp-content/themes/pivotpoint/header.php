@@ -56,12 +56,12 @@
             <!-- FIN DE MAILCHIMP CSS -->
 
 			<!-- PRIMEROS SCRIPTS -->
-			<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+			<script src="<?php bloginfo('template_url'); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+			<script>window.jQuery || document.write('<script src="<?php bloginfo('template_url'); ?>/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
 
-			<script src="js/vendor/bootstrap.min.js"></script>
-			<script src="js/vendor/queryloader2.js" type="text/javascript"></script>
+			<script src="<?php bloginfo('template_url'); ?>/js/vendor/bootstrap.min.js"></script>
+			<script src="<?php bloginfo('template_url'); ?>/js/vendor/queryloader2.js" type="text/javascript"></script>
 
 		</head>
 
@@ -123,7 +123,7 @@
 						<div class="menu-sup">
 							<div class="navbar">
 								<div class="navbar-inner">
-									<a class="brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
+									<a class="brand" href="index.php"><img src="<?php bloginfo('template_url');?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
 										<li class="liquienessomos"><a href="quienes-somos.php">Quiénes somos</a></li>
@@ -146,7 +146,7 @@
 							<div class="menu-sup">
 								<div class="navbar">
 									<div class="navbar-inner">
-										<a class="brand" href="index.php"><img src="img/sprites/logo-header.png" alt="Pivot Point"></a>
+										<a class="brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
 										<ul class="nav pull-right">
 											<!-- class="active" -->
 											<li><a href="quienes-somos.php">Quiénes somos</a></li>
