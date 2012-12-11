@@ -1,0 +1,13 @@
+/* ESTILOS PARA IE8 */
+
+.thumb {
+	border:1px solid gray;
+}
+
+.navbar-inverse {
+	border-color:transparent;
+}
+
+.footer-textura {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
