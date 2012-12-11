@@ -91,7 +91,7 @@ $('.carousel').carousel({
  	$('.th9').height(nueva9);
  	$('.th10').height(nueva10);
  	$('.th11').height(nueva11);
- 	$('.th9,.th10,.th11').html('<img src="<?php bloginfo('template_url');?>/img/degradadoth.png" width="100%" height="100%" alt="">');
+ 	$('.th9,.th10,.th11').html('<img src="/wp-content/themes/pivotpoint/img/degradadoth.png" width="100%" height="100%" alt="">');
  	$('.th11 img').height(nueva11);
  	$('.th10 img').height(nueva10);
  	$('.th9 img').height(nueva9);
@@ -121,7 +121,8 @@ pinterestthumbs();
 
 /* FOOTER */
 
-var tamanofooter = $('.footer').height();
+//var tamanofooter = $('.footer').height();
+var tamanofooter = 721;
 $('.fondo-footer,.footer-textura,.contiene-bckg-foot').height(tamanofooter);
 /* 	$('.footbckg').width(tamanofooter*8); */
 
