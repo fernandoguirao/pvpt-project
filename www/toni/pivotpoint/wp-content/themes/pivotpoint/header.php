@@ -9,6 +9,7 @@
 		<head> 
 
 			<!-- 0.1. METAS -->
+				<?php wp_head();?>
 
 			<meta charset="utf-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">

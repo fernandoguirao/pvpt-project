@@ -1,14 +1,24 @@
-<!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<?php include ('header.php'); ?>
 
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        Esto es la pagina productos
-    </body>
-</html>
+				<div id="cuerpo" class="calendario">
+					<div class="sombra hidden-desktop">
+					</div>
+					<div class="mini-header imgbarra">
+						<div class="container">
+							<div class="captionimg">
+								<h2>
+									Calendario 2012-2013
+								</h2>
+							</div>
+						</div> 
+						<div class="imagen-main">
+						</div>
+					</div>
+					<div id="contenido" class="container">
+					
+					<!-- AQUÍ EL CONTENIDO DE LA PÁGINA -->
+					
+					</div>
+				</div>
+
+<?php include ('footer.php'); ?>

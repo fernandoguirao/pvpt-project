@@ -1,4 +1,6 @@
-<?php include ('header.php'); ?>
+<?php //include ('header.php'); ?>
+<?php get_header(); ?>
+
 
 				<!-- 2. CUERPO PRINCIPAL -->
 				
@@ -199,5 +201,5 @@
 						</div> <!-- / FIN CONTAINER THUMBS -->
 						
 					</div> <!-- / FIN DE CUERPO -->
-
-<?php include ('footer.php'); ?>
+<?php get_footer(); ?>
+<?php //include ('footer.php'); ?>

@@ -14,6 +14,7 @@ Template Name: instalaciones
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        Esto es la pagina productos
+        Esto es la pagina instalaciones
+        
     </body>
 </html>
