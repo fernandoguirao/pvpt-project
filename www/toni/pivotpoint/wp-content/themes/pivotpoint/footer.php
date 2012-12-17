@@ -41,12 +41,12 @@
 								<img src="<?php bloginfo('template_url'); ?>/img/sprites/foot-img03.jpg" class="hidden-phone" style="margin-top: 77px;" width="100%" alt="" />
 								<div class="foot-contacto">
 									<h3>Contacta con nosotros</h3>
-									<form>
+									<form name="envio" action="<?php bloginfo('template_directory'); ?>/email.php" method="post" target="_blank">
 										<fieldset>
-											<input type="text" id="inputEmail" placeholder="Nombre">
-											<input type="text" id="inputEmail" placeholder="Email">
-											<input type="text" id="inputEmail" placeholder="Teléfono">
-											<textarea rows="3" placeholder="Mensaje"></textarea>
+											<input type="text" placeholder="Nombre" name="frm_nombre">
+											<input type="text" placeholder="Email" name="frm_email">
+											<input type="text" placeholder="Teléfono" name="frm_telefono">
+											<textarea rows="3" placeholder="Mensaje" name="frm_anyadir"></textarea>
 											<label class="checkbox">
 												<input type="checkbox"> Acepto las condiciones de privacidad
 											</label>

@@ -79,6 +79,9 @@ define('WPLANG', 'es_ES');
  * en sus entornos de desarrollo.
  */
 define('WP_DEBUG', false);
+define ('TP_PUBLICATION_SYSTEM','disable');
+
+
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 

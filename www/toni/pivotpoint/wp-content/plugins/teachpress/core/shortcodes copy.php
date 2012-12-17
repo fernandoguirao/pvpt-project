@@ -155,17 +155,9 @@ function tp_courselist_shortcode($atts) {
       } 
    }
    else {
-      $rtn2 = 'Error';
+      $rtn2 = '<tr><td class="teachpress_message">' . __('Sorry, no entries matched your criteria.','teachpress') . '</td></tr>';
    }
-   $rtn2 = '<ul class="thumbnails"><li class="span3 row1">' . $rtn2 . '</li>
-							<li class="span3 row2">
-							</li>
-							<li class="span3 row3">
-							</li>
-							<li class="span3 row4">
-							</li>
-						</ul>
-';
+   $rtn2 = '<table class="teachpress_course_list">' . $rtn2 . '</table>';
    $rtn3 = '</form></div>';
    return $rtn . $rtn2 . $rtn3;
 }

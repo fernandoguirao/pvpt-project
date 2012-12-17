@@ -7,6 +7,13 @@
 		<!-- 0. HEAD -->
 		
 		<head> 
+		    <!-- 0.0.1 FUNCIONES -->
+		    
+		    <?php $current_user=wp_get_current_user();
+                  if($current_user->roles[0]=="administrator"){
+                      $admin=1;
+                  }        												
+            ?>
 
 			<!-- 0.1. METAS -->
 				<?php wp_head();?>
@@ -90,18 +97,42 @@
 														 <span class="icon-bar"></span>
 												 </a>
 												 <a class="brand" href="#">Acceso alumno</a>
+												
+
 												 <div class="nav-collapse collapse">
 														 <ul class="nav">
-																 <li class="dropdown"><a href="programa.php" class="liprograma">Programa</a></li>
-																 <li class="dropdown"><a href="material.php" class="limaterial">Material</a></li>
-																 <li><a href="valoracion.php" class="livaloracion">Valoración</a></li>
-																 <li><a href="contacto-profesor.php" class="licontactoconelprofesor">Contacto con el profesor</a></li>
-																 <li><a href="mi-calendario.php" class="limicalendario">Mi calendario</a></li>
+<?php if(is_user_logged_in()){
+        
+?>
+
+																 <li class="dropdown"><a href="<?php echo get_bloginfo( 'url' ) ?>/programa" class="liprograma">Programa</a></li>
+																 <li class="dropdown"><a href="<?php echo get_bloginfo( 'url' ) ?>/material" class="limaterial">Material</a></li>
+																 <li><a href="<?php echo get_bloginfo( 'url' ) ?>/valoracion" class="livaloracion">Valoración</a></li>
+																 <li><a href="<?php echo get_bloginfo( 'url' ) ?>/contactar-con-el-profesor" class="licontactoconelprofesor">Contacto con el profesor</a></li>
+																 <li><a href="<?php echo get_bloginfo( 'url' ) ?>/calendario" class="limicalendario">Mi calendario</a></li>
 														 </ul>
-	
-														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="#">
+
+														 <a class="btn btn-inverse pull-right nav-cerrar hidden-phone hidden-tablet" href="<?php echo wp_logout_url(home_url());?>">
 														 	<i class="icon-off icon-white"></i> Cerrar sesión
 														 </a>
+														 
+<?php
+}
+else{
+    
+?>                                                        
+                                                        <a href="/wp-login.php" class="simplemodal-login">
+                                                            <i class="icon-off icon-white"></i> Iniciar
+                                                        </a>
+
+			                                             <a href="/wp-login.php?action=register" class="simplemodal-register">
+														 	<i class="icon-off icon-white"></i> Registrarse
+														 </a>
+														 
+<?php 
+}
+?>
+
 	<!--
 														 <form class="navbar-form pull-right">
 																 <input class="span2" type="text" placeholder="Email">
@@ -127,12 +158,12 @@
 									<a class="brand" href="index.php"><img src="<?php bloginfo('template_url');?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
 									<ul class="nav pull-right">
 										<!-- class="active" -->
-										<li class="liquienessomos"><a href="quienes-somos.php">Quiénes somos</a></li>
-										<li class="licursos"><a href="cursos.php">Cursos</a></li>
-										<li class="licalendario"><a href="calendario.php">Calendario</a></li>
-										<li class="linoticias"><a href="noticias.php">Noticias</a></li>
-										<li class="liformadores"><a href="formadores.php">Formadores</a></li>
-										<li class="libolsadetrabajo"><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
+										<li class="liquienessomos"><a href="<?php echo get_bloginfo( 'url' ) ?>/quienes-somos">Quiénes somos</a></li>
+										<li class="licursos"><a href="<?php echo get_bloginfo( 'url' ) ?>/cursos">Cursos</a></li>
+										<li class="licalendario"><a href="<?php echo get_bloginfo( 'url' ) ?>/calendario">Calendario</a></li>
+										<li class="linoticias"><a href="<?php echo get_bloginfo( 'url' ) ?>/noticias">Noticias</a></li>
+										<li class="liformadores"><a href="<?php echo get_bloginfo( 'url' ) ?>/formadores">Formadores</a></li>
+										<li class="libolsadetrabajo"><a href="<?php echo get_bloginfo( 'url' ) ?>/bolsa-de-trabajo">Bolsa de trabajo</a></li>
 									</ul>
 								</div>
 							</div>
@@ -150,17 +181,17 @@
 										<a class="brand" href="index.php"><img src="<?php bloginfo('template_url'); ?>/img/sprites/logo-header.png" alt="Pivot Point"></a>
 										<ul class="nav pull-right">
 											<!-- class="active" -->
-											<li><a href="quienes-somos.php">Quiénes somos</a></li>
-											<li><a href="cursos.php">Cursos</a></li>
-											<li><a href="calendario.php">Calendario</a></li>
-											<li><a href="noticias.php">Noticias</a></li>
-											<li><a href="formadores.php">Formadores</a></li>
-											<li><a href="bolsa-de-trabajo.php">Bolsa de trabajo</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/quienes-somos">Quiénes somos</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/cursos">Cursos</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/calendario">Calendario</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/noticias">Noticias</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/formadores">Formadores</a></li>
+											<li><a href="<?php echo get_bloginfo( 'url' ) ?>/bolsa-de-trabajo">Bolsa de trabajo</a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div> <!-- FIN MENÚ SCROLL -->
-
+					<?php echo wp_get_current_user()->get('role');?>
 				</header> <!-- / FIN DE CABECERA -->
